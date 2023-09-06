@@ -99,6 +99,16 @@
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -212,6 +222,25 @@
 			<Item Name="KListboxEx.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KListboxEx/KListboxEx.xctl"/>
 			<Item Name="Enable or Gray Out.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Enable or Gray Out.vi"/>
 			<Item Name="Read Anything (malleable).vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (malleable).vim"/>
+			<Item Name="CFTS-Get Acoustic System IDs.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Get Acoustic System IDs.vi"/>
+			<Item Name="CFTS-Store Acoustic System IDs.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Store Acoustic System IDs.vi"/>
+			<Item Name="CFTS-Get CFTS Run Mode.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Get CFTS Run Mode.vi"/>
+			<Item Name="Array-Delete String and Parse Fields.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Delete String and Parse Fields.vi"/>
+			<Item Name="KTable.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/KTable.xctl"/>
+			<Item Name="Table Items to Cluster Array Variant.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Table Items to Cluster Array Variant.vi"/>
+			<Item Name="Cluster Variant Array to Table Items.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Cluster Variant Array to Table Items.vi"/>
+			<Item Name="Graphics-Defer Panel Updates.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Defer Panel Updates.vi"/>
+			<Item Name="Cluster Array Variant to Cluster Variant Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Cluster Array Variant to Cluster Variant Array.vi"/>
+			<Item Name="Get Default Colors.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Get Default Colors.vi"/>
+			<Item Name="Get Enum Strings From File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Get Enum Strings From File.vi"/>
+			<Item Name="KListbox.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KListbox/KListbox.xctl"/>
+			<Item Name="Listbox-Click to add.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Listbox-Click to add.vi"/>
+			<Item Name="Table-Get Visible Rows.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Table-Get Visible Rows.vi"/>
+			<Item Name="PXI-Enumerate AI Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AI Channels.vi"/>
+			<Item Name="PXI-Enumerate AO Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Channels.vi"/>
+			<Item Name="CM-Read Configuration.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Read Configuration.vi"/>
+			<Item Name="CM-Write Configuration.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Write Configuration.vi"/>
+			<Item Name="CM-Endpoint.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Typedefs/CM-Endpoint.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
