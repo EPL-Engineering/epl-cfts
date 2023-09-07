@@ -346,6 +346,7 @@
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Configure Input Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/buffer.llb/DAQmx Configure Input Buffer.vi"/>
 				<Item Name="DAQmx Reset Device.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/system.llb/DAQmx Reset Device.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -370,7 +371,6 @@
 			<Item Name="Open Help Topic.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Open Help Topic.vi"/>
 			<Item Name="Array-Unique Strings.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Unique Strings.vi"/>
 			<Item Name="Read Anything.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything.vi"/>
-			<Item Name="Calibrate In Ear.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Calibrate In Ear.vi"/>
 			<Item Name="Calibrate Probe Tube.vi" Type="VI" URL="../../epl-cal-vi-lib/Calibrate Probe Tube.vi"/>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="Get Type Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Get Type Info.vi"/>
@@ -549,9 +549,7 @@
 			<Item Name="AODO-Configure AO.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vim"/>
 			<Item Name="IECal-Config.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Config.vi"/>
 			<Item Name="CAL-Save Data.vim" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Save Data.vim"/>
-			<Item Name="Calibrate In Ear.vi" Type="VI" URL="../../epl-cal-vi-lib/Calibrate In Ear.vi"/>
 			<Item Name="IECal-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Typedefs/IECal-Main Menu.rtm"/>
-			<Item Name="ACal-Plot Data.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Analysis VIs/ACal-Plot Data.vi"/>
 			<Item Name="Filter Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Filter Error.vi"/>
 			<Item Name="FileIO-Open Dialog.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog.vi"/>
 			<Item Name="IECal-Find Last N.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Find Last N.vi"/>
@@ -561,6 +559,18 @@
 			<Item Name="Build-Clear Build Folder.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Clear Build Folder.vi"/>
 			<Item Name="Build-Build Items.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Build Items.vi"/>
 			<Item Name="Build-Create Installer.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Create Installer.vi"/>
+			<Item Name="KLegend.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KLegend/KLegend.xctl"/>
+			<Item Name="Graphics-Delete Plots.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Delete Plots.vim"/>
+			<Item Name="Graphics-Set Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Set Plot Properties.vi"/>
+			<Item Name="Graphics-Plot Properties.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Plot Properties.ctl"/>
+			<Item Name="Graphics-Get Plot Properties.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Get Plot Properties.vi"/>
+			<Item Name="Graphics-Reorder Plots.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Reorder Plots.vim"/>
+			<Item Name="Graphic-Generate Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphic-Generate Color Map.vi"/>
+			<Item Name="Create Prism Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Create Prism Color Map.vi"/>
+			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
+			<Item Name="Graphics-HSV to RGB.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-HSV to RGB.vi"/>
+			<Item Name="Graphics-Add Plot.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Add Plot.vi"/>
+			<Item Name="Calibrate In Ear.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Calibrate In Ear.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
