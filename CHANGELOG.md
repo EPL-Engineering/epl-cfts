@@ -2,6 +2,10 @@
 
 ### Unreleased
 
+#### Added
+
+- added log to experiment state file
+
 #### Missing
 
 - calibration smoothing, validation
