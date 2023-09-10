@@ -10,7 +10,9 @@
 
 - calibration smoothing, validation
 
-#### Changed
+#### Removed
+
+- Sequencer
 
 ---
 

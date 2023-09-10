@@ -668,7 +668,6 @@
 			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
 			<Item Name="CAL-Get MAX SPL (click).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (click).vi"/>
 			<Item Name="Load Signal Bank 1.0.3 keh.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Load Signal Bank 1.0.3 keh.vi"/>
-			<Item Name="Restore Panel (by name).vi" Type="VI" URL="../Utility VIs/File IO VIs/Read Write Anything/Restore Panel (by name).vi"/>
 			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
 			<Item Name="PXI Atten to Multiplier.vi" Type="VI" URL="../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Atten to Multiplier.vi"/>
@@ -682,6 +681,7 @@
 			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
+			<Item Name="ABR-Hidden Params.ctl" Type="VI" URL="../LV Source/ABR VIs/Standard ABR VIs/Typedefs/ABR-Hidden Params.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
