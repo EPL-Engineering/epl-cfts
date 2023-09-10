@@ -645,6 +645,7 @@
 			<Item Name="Cxns-Get Connections File Path.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/epl-vi-lib/Connection VIs/Sub VIs/Cxns-Get Connections File Path.vi"/>
 			<Item Name="Equip-Get Device (TDT).vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/epl-vi-lib/Connection VIs/TDT VIs/Equip-Get Device (TDT).vi"/>
 			<Item Name="PTC-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Typedefs/PTC-Main Menu.rtm"/>
+			<Item Name="CAL-Apply Microphone Correction.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Apply Microphone Correction.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
