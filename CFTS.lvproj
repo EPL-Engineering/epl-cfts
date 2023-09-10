@@ -397,34 +397,25 @@
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Write GIF File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/gif.llb/Write GIF File.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="LinSpace (start-stop-step).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace (start-stop-step).vi"/>
 			<Item Name="Text List to Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text List to Array.vi"/>
-			<Item Name="Connection Manager.vi" Type="VI" URL="../../epl-vi-lib/Connection VIs/Connection Manager.vi"/>
 			<Item Name="LogSpace.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LogSpace.vi"/>
 			<Item Name="isDir.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/isDir.vi"/>
 			<Item Name="Array-Parse From String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Parse From String.vi"/>
-			<Item Name="Spawn VI.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Spawn VI.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="FileIO-Create Backup.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Create Backup.vi"/>
-			<Item Name="PXI-Connections File Path.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Connections File Path.vi"/>
 			<Item Name="Ring-Set nicely by string.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Ring-Set nicely by string.vi"/>
 			<Item Name="Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Config File Path.vi"/>
 			<Item Name="KCheckmarkBoolean 2.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Buttons/KCheckmarkBoolean 2.ctl"/>
-			<Item Name="Config-Read Key.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key.vi"/>
 			<Item Name="Config-Read Key (Boolean).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (Boolean).vi"/>
-			<Item Name="Config-Read Key (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (string).vi"/>
-			<Item Name="Center Window on Parent.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Center Window on Parent.vi"/>
 			<Item Name="Open Help Topic.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Open Help Topic.vi"/>
-			<Item Name="Array-Unique Strings.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Unique Strings.vi"/>
-			<Item Name="Read Anything.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything.vi"/>
-			<Item Name="Calibrate Probe Tube.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Calibrate Probe Tube.vi"/>
 			<Item Name="provcom_StringGlobals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_StringGlobals.vi"/>
 			<Item Name="Get Type Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Get Type Info.vi"/>
-			<Item Name="LinSpace.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace.vi"/>
 			<Item Name="LinSpace (x0-dx-npts).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace (x0-dx-npts).vi"/>
 			<Item Name="Create Directory Chain.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Create Directory Chain.vi"/>
 			<Item Name="Array-Dimensions (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Dimensions (2D).vi"/>
@@ -469,24 +460,6 @@
 			<Item Name="Error-Get All Errors From List.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error-Get All Errors From List.vi"/>
 			<Item Name="Text-Parse String Fields.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text-Parse String Fields.vi"/>
 			<Item Name="StrQueue-Set Event Case Timeout.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Snippets/StrQueue-Set Event Case Timeout.vi"/>
-			<Item Name="Fast ABR.vi" Type="VI" URL="../LV Source/ABR VIs/Fast VIs/Fast ABR.vi"/>
-			<Item Name="PhysMon-Send Notifier.vi" Type="VI" URL="../LV Source/Vital Signs VIs/Sub VIs/PhysMon-Send Notifier.vi"/>
-			<Item Name="Physiological Monitor.vi" Type="VI" URL="../LV Source/Vital Signs VIs/Physiological Monitor.vi"/>
-			<Item Name="VsEP I-O Calibrator.vi" Type="VI" URL="../LV Source/VsEP VIs/VsEP I-O Calibrator.vi"/>
-			<Item Name="ABR Main Panel.vi" Type="VI" URL="../LV Source/ABR VIs/ABR Main Panel.vi"/>
-			<Item Name="ABR3 Main Panel.vi" Type="VI" URL="../LV Source/ABR VIs/ABR3 Main Panel.vi"/>
-			<Item Name="CAPTH Main Panel.vi" Type="VI" URL="../LV Source/CAPTH VIs/CAPTH Main Panel.vi"/>
-			<Item Name="DP I-O (F1L1).vi" Type="VI" URL="../LV Source/DPOAE VIs/DP I-O (F1L1).vi"/>
-			<Item Name="DP I-O Main Panel.vi" Type="VI" URL="../LV Source/DPOAE VIs/DP I-O Main Panel.vi"/>
-			<Item Name="Digital Exposure Controller.vi" Type="VI" URL="../LV Source/Digital Exposure VIs/Digital Exposure Controller.vi"/>
-			<Item Name="RW Noise Controller.vi" Type="VI" URL="../LV Source/RW Noise VIs/RW Noise VIs/RW Noise Controller.vi"/>
-			<Item Name="VsEP I-O Controller.vi" Type="VI" URL="../LV Source/VsEP VIs/VsEP I-O Controller.vi"/>
-			<Item Name="DP Analysis Panel.vi" Type="VI" URL="../LV Source/DPOAE VIs/DP Analysis Panel.vi"/>
-			<Item Name="System Test.vi" Type="VI" URL="../LV Source/System Test VIs/System Test.vi"/>
-			<Item Name="CAP Forward Masking.vi" Type="VI" URL="../LV Source/CAP Forward Masking/CAP Forward Masking.vi"/>
-			<Item Name="SFOAE Main Panel.vi" Type="VI" URL="../LV Source/SFOAE VIs/SFOAE Main Panel.vi"/>
-			<Item Name="PSTR Controller.vi" Type="VI" URL="../LV Source/RW Noise VIs/PSTR VIs/PSTR Controller.vi"/>
-			<Item Name="SOAE Main Panel.vi" Type="VI" URL="../LV Source/SOAE VIs/SOAE Main Panel.vi"/>
 			<Item Name="FileIO-File or Folder Exists.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-File or Folder Exists.vi"/>
 			<Item Name="CFTS-Show run numbers.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Show run numbers.vi"/>
 			<Item Name="CFTS-Read Options.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Read Options.vi"/>
@@ -496,9 +469,6 @@
 			<Item Name="KListboxEx.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KListboxEx/KListboxEx.xctl"/>
 			<Item Name="Enable or Gray Out.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Enable or Gray Out.vi"/>
 			<Item Name="Read Anything (malleable).vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (malleable).vim"/>
-			<Item Name="CFTS-Get Acoustic System IDs.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Get Acoustic System IDs.vi"/>
-			<Item Name="CFTS-Store Acoustic System IDs.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Store Acoustic System IDs.vi"/>
-			<Item Name="CFTS-Get CFTS Run Mode.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Get CFTS Run Mode.vi"/>
 			<Item Name="Array-Delete String and Parse Fields.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Delete String and Parse Fields.vi"/>
 			<Item Name="KTable.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/KTable.xctl"/>
 			<Item Name="Table Items to Cluster Array Variant.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Table Items to Cluster Array Variant.vi"/>
@@ -526,7 +496,6 @@
 			<Item Name="IECal-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Restore Defaults.vi"/>
 			<Item Name="CAL-Read Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Read Data.vi"/>
 			<Item Name="CAL-Plot Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Plot Data.vi"/>
-			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="CAL-Globals.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Globals.vi"/>
 			<Item Name="Math-dB To Linear.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-dB To Linear.vim"/>
 			<Item Name="dB, degrees to Z.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB, degrees to Z.vi"/>
@@ -539,7 +508,6 @@
 			<Item Name="CAL-Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Data.ctl"/>
 			<Item Name="IECal-Compute ASTF.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Compute ASTF.vi"/>
 			<Item Name="PXI Multipliers to AO Gains (scalar).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (scalar).vi"/>
-			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
 			<Item Name="AODO-Write (DO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Write (DO).vi"/>
 			<Item Name="AODO-Task Specification.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Task Specification.ctl"/>
 			<Item Name="AODO-Write (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Write (AO).vi"/>
@@ -586,7 +554,6 @@
 			<Item Name="AIDI-Engine.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/AIDI-Engine.vi"/>
 			<Item Name="DAQ-Stop All.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Stop All.vi"/>
 			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
-			<Item Name="Create Waveform Cluster (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (2D).vi"/>
 			<Item Name="Create Waveform Cluster.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster.vi"/>
 			<Item Name="IECal-Check Mic Level.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Check Mic Level.vi"/>
 			<Item Name="PXI-Is Any Task 16-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Any Task 16-bit.vi"/>
@@ -617,7 +584,6 @@
 			<Item Name="Graphics-Reorder Plots.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Reorder Plots.vim"/>
 			<Item Name="Graphic-Generate Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphic-Generate Color Map.vi"/>
 			<Item Name="Create Prism Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Create Prism Color Map.vi"/>
-			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="Graphics-HSV to RGB.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-HSV to RGB.vi"/>
 			<Item Name="Graphics-Add Plot.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Add Plot.vi"/>
 			<Item Name="Calibrate In Ear.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Calibrate In Ear.vi"/>
@@ -632,7 +598,6 @@
 			<Item Name="PTC-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Sub VIs/PTC-Restore Defaults.vi"/>
 			<Item Name="CPT-Compute PTC.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Sub VIs/CPT-Compute PTC.vi"/>
 			<Item Name="PTC-Config.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Sub VIs/PTC-Config.vi"/>
-			<Item Name="Calibrate Probe Tube.vi" Type="VI" URL="../../epl-cal-vi-lib/Calibrate Probe Tube.vi"/>
 			<Item Name="Calibration Smoothing Tool.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Calibration Smoothing Tool.vi"/>
 			<Item Name="Cal Validation.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Cal Validation.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
@@ -646,6 +611,77 @@
 			<Item Name="Equip-Get Device (TDT).vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/epl-vi-lib/Connection VIs/TDT VIs/Equip-Get Device (TDT).vi"/>
 			<Item Name="PTC-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Typedefs/PTC-Main Menu.rtm"/>
 			<Item Name="CAL-Apply Microphone Correction.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Apply Microphone Correction.vi"/>
+			<Item Name="Irregular Array Subset.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset.vi"/>
+			<Item Name="Math-Subtract Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Subtract Mean.vi"/>
+			<Item Name="MathOptim-Fit Sigmoid.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Fit Sigmoid.vi"/>
+			<Item Name="MathOptim-Fit Power2.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Fit Power2.vi"/>
+			<Item Name="MathOptim-Power 2 Invert.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Power 2 Invert.vi"/>
+			<Item Name="MathOptim-Sigmoid Invert.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Sigmoid Invert.vi"/>
+			<Item Name="MathOptim-Fit Stats.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Fit Stats.vi"/>
+			<Item Name="MathOptim-Sigmoid Full Parameter Vector.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Sigmoid Full Parameter Vector.vi"/>
+			<Item Name="MathOptim-Sigmoid Model.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Sigmoid Model.vi"/>
+			<Item Name="MathOptim-Sigmoid Estimate.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Sigmoid Estimate.vi"/>
+			<Item Name="MathOptim-Power 2 Full Parameter Vector.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Power 2 Full Parameter Vector.vi"/>
+			<Item Name="MathOptim-Power 2 Model.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Power 2 Model.vi"/>
+			<Item Name="Irregular Array Subset (2D CDB).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (2D CDB).vi"/>
+			<Item Name="Irregular Array Subset (2D DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (2D DBL).vi"/>
+			<Item Name="Irregular Array Subset (DBL, Index).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL, Index).vi"/>
+			<Item Name="Irregular Array Subset (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (I32).vi"/>
+			<Item Name="MathOptim-Power 2 Estimate.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Optimization VIs/MathOptim-Power 2 Estimate.vi"/>
+			<Item Name="LinSpace (start-stop-step).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace (start-stop-step).vi"/>
+			<Item Name="PXI-Connections File Path.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Connections File Path.vi"/>
+			<Item Name="Center Window on Parent.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Center Window on Parent.vi"/>
+			<Item Name="Read Anything.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything.vi"/>
+			<Item Name="Calibrate Probe Tube.vi" Type="VI" URL="../../epl-cal-vi-lib/Probe Tube Calibration VIs/LV Source/Calibrate Probe Tube.vi"/>
+			<Item Name="LinSpace.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace.vi"/>
+			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
+			<Item Name="Create Waveform Cluster (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (2D).vi"/>
+			<Item Name="Irregular Array Subset (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL).vi"/>
+			<Item Name="ABR3-Graph Controls.ctl" Type="VI" URL="../LV Source/ABR VIs/Standard ABR VIs/Typedefs/ABR3-Graph Controls.ctl"/>
+			<Item Name="Graphics-Sort XY Graph (polymorphic).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (polymorphic).vi"/>
+			<Item Name="Graphics-Sort XY Graph (1D).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (1D).vi"/>
+			<Item Name="PXI-Check for DAQ error.vi" Type="VI" URL="../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Check for DAQ error.vi"/>
+			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
+			<Item Name="Data Available Queue.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/Data Available Queue.vi"/>
+			<Item Name="Range.vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Math VIs/Range.vi"/>
+			<Item Name="PXI Globals.vi" Type="VI" URL="../PXI DAQ VIs/DAQ Engine VIs/PXI Globals.vi"/>
+			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
+			<Item Name="Error-Resume.vi" Type="VI" URL="../Utility VIs/Error Handling VIs/Error-Resume.vi"/>
+			<Item Name="Pulse Train Params.ctl" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/Pulse Train Params.ctl"/>
+			<Item Name="Pulse Polarity.ctl" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/Pulse Polarity.ctl"/>
+			<Item Name="PT-Continuous State.ctl" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/PT-Continuous State.ctl"/>
+			<Item Name="Tone-Create.vi" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Tone VIs/Tone-Create.vi"/>
+			<Item Name="Gate Apply.vi" Type="VI" URL="../Signal Synthesis VIs/Gate VIs/Gate Apply.vi"/>
+			<Item Name="PulseTrain-Create.vi" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/PulseTrain-Create.vi"/>
+			<Item Name="Interp1 (poly).vi" Type="VI" URL="../Utility VIs/Math VIs/Interp1 (poly).vi"/>
+			<Item Name="Input sources.ctl" Type="VI" URL="../Misc VIs/Connection Manager/Type Defs/Input sources.ctl"/>
+			<Item Name="Output sources.ctl" Type="VI" URL="../Misc VIs/Connection Manager/Type Defs/Output sources.ctl"/>
+			<Item Name="PXI-General Init.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI-General Init.vi"/>
+			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../PXI DAQ VIs/Utility VIs/PXI-Coerce Rep Rate.vi"/>
+			<Item Name="Equip-Get AI Channels.vi" Type="VI" URL="../Misc VIs/Connection Manager/Equip-Get AI Channels.vi"/>
+			<Item Name="Equip-Get AO Channels.vi" Type="VI" URL="../Misc VIs/Connection Manager/Equip-Get AO Channels.vi"/>
+			<Item Name="PXI-Set AO Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Config.vi"/>
+			<Item Name="PXI-Set AI Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AI Config.vi"/>
+			<Item Name="PXI-Set Counter Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Counter Config.vi"/>
+			<Item Name="Speaker ring.ctl" Type="VI" URL="../Utility VIs/Type Defs/Speaker ring.ctl"/>
+			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
+			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
+			<Item Name="CAL-Get MAX SPL (click).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (click).vi"/>
+			<Item Name="Load Signal Bank 1.0.3 keh.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Load Signal Bank 1.0.3 keh.vi"/>
+			<Item Name="Restore Panel (by name).vi" Type="VI" URL="../Utility VIs/File IO VIs/Read Write Anything/Restore Panel (by name).vi"/>
+			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
+			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
+			<Item Name="PXI Atten to Multiplier.vi" Type="VI" URL="../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Atten to Multiplier.vi"/>
+			<Item Name="PXI-Set AO Gains and Multipliers.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Gains and Multipliers.vi"/>
+			<Item Name="Beeper.vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
+			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
+			<Item Name="SysInfo-Expt VIs Version.vi" Type="VI" URL="../Utility VIs/System Info VIs/SysInfo-Expt VIs Version.vi"/>
+			<Item Name="ABR3-Analysis State.ctl" Type="VI" URL="../LV Source/ABR VIs/TypeDefs/ABR3-Analysis State.ctl"/>
+			<Item Name="Config-Read Key.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key.vi"/>
+			<Item Name="Config-Read Key (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (string).vi"/>
+			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
+			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
+			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
