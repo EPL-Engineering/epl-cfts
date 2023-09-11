@@ -25,6 +25,7 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -654,27 +655,18 @@
 			<Item Name="Gate Apply.vi" Type="VI" URL="../Signal Synthesis VIs/Gate VIs/Gate Apply.vi"/>
 			<Item Name="PulseTrain-Create.vi" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/PulseTrain-Create.vi"/>
 			<Item Name="Interp1 (poly).vi" Type="VI" URL="../Utility VIs/Math VIs/Interp1 (poly).vi"/>
-			<Item Name="Input sources.ctl" Type="VI" URL="../Misc VIs/Connection Manager/Type Defs/Input sources.ctl"/>
-			<Item Name="Output sources.ctl" Type="VI" URL="../Misc VIs/Connection Manager/Type Defs/Output sources.ctl"/>
-			<Item Name="PXI-General Init.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI-General Init.vi"/>
-			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../PXI DAQ VIs/Utility VIs/PXI-Coerce Rep Rate.vi"/>
-			<Item Name="Equip-Get AI Channels.vi" Type="VI" URL="../Misc VIs/Connection Manager/Equip-Get AI Channels.vi"/>
-			<Item Name="Equip-Get AO Channels.vi" Type="VI" URL="../Misc VIs/Connection Manager/Equip-Get AO Channels.vi"/>
-			<Item Name="PXI-Set AO Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Config.vi"/>
-			<Item Name="PXI-Set AI Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AI Config.vi"/>
+			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
 			<Item Name="PXI-Set Counter Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Counter Config.vi"/>
 			<Item Name="Speaker ring.ctl" Type="VI" URL="../Utility VIs/Type Defs/Speaker ring.ctl"/>
 			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
 			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
 			<Item Name="CAL-Get MAX SPL (click).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (click).vi"/>
-			<Item Name="Load Signal Bank 1.0.3 keh.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Load Signal Bank 1.0.3 keh.vi"/>
 			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
 			<Item Name="PXI Atten to Multiplier.vi" Type="VI" URL="../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Atten to Multiplier.vi"/>
 			<Item Name="PXI-Set AO Gains and Multipliers.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Gains and Multipliers.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
 			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
-			<Item Name="SysInfo-Expt VIs Version.vi" Type="VI" URL="../Utility VIs/System Info VIs/SysInfo-Expt VIs Version.vi"/>
 			<Item Name="ABR3-Analysis State.ctl" Type="VI" URL="../LV Source/ABR VIs/TypeDefs/ABR3-Analysis State.ctl"/>
 			<Item Name="Config-Read Key.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key.vi"/>
 			<Item Name="Config-Read Key (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (string).vi"/>
@@ -682,6 +674,8 @@
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="ABR-Hidden Params.ctl" Type="VI" URL="../LV Source/ABR VIs/Standard ABR VIs/Typedefs/ABR-Hidden Params.ctl"/>
+			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
+			<Item Name="CM-Endpoint Name To Device.vim" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoint Name To Device.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
