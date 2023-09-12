@@ -25,6 +25,7 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Graphics-Sort XY Graph (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (polymorphic).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -399,6 +400,32 @@
 				<Item Name="Write GIF File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/gif.llb/Write GIF File.vi"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
+				<Item Name="Sound File Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Refnum.ctl"/>
+				<Item Name="Sound File Close.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Close.vi"/>
+				<Item Name="Sound Data Format.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Data Format.ctl"/>
+				<Item Name="Sound File Info (refnum).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info (refnum).vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="Sound File Read Open.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read Open.vi"/>
+				<Item Name="Sound File Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Write Open.vi"/>
+				<Item Name="Sound File Open.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Open.vi"/>
+				<Item Name="Sound File Info (path).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info (path).vi"/>
+				<Item Name="Sound File Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Info.vi"/>
+				<Item Name="_2DArrToArrWfms.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_2DArrToArrWfms.vi"/>
+				<Item Name="Sound File Position.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Position.ctl"/>
+				<Item Name="Sound File Read (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read (DBL).vi"/>
+				<Item Name="Sound File Read (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read (U8).vi"/>
+				<Item Name="Sound File Read (SGL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read (SGL).vi"/>
+				<Item Name="Sound File Read (I32).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read (I32).vi"/>
+				<Item Name="Sound File Read (I16).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read (I16).vi"/>
+				<Item Name="Sound File Read.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
+				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -637,31 +664,11 @@
 			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
 			<Item Name="Create Waveform Cluster (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (2D).vi"/>
 			<Item Name="Irregular Array Subset (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL).vi"/>
-			<Item Name="ABR3-Graph Controls.ctl" Type="VI" URL="../LV Source/ABR VIs/Standard ABR VIs/Typedefs/ABR3-Graph Controls.ctl"/>
-			<Item Name="Graphics-Sort XY Graph (polymorphic).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (polymorphic).vi"/>
-			<Item Name="Graphics-Sort XY Graph (1D).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (1D).vi"/>
 			<Item Name="PXI-Check for DAQ error.vi" Type="VI" URL="../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Check for DAQ error.vi"/>
-			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
-			<Item Name="Data Available Queue.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/Data Available Queue.vi"/>
 			<Item Name="Range.vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Math VIs/Range.vi"/>
-			<Item Name="PXI Globals.vi" Type="VI" URL="../PXI DAQ VIs/DAQ Engine VIs/PXI Globals.vi"/>
-			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
 			<Item Name="Error-Resume.vi" Type="VI" URL="../Utility VIs/Error Handling VIs/Error-Resume.vi"/>
-			<Item Name="Pulse Train Params.ctl" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/Pulse Train Params.ctl"/>
-			<Item Name="Pulse Polarity.ctl" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/Pulse Polarity.ctl"/>
-			<Item Name="PT-Continuous State.ctl" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/PT-Continuous State.ctl"/>
-			<Item Name="Tone-Create.vi" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Tone VIs/Tone-Create.vi"/>
-			<Item Name="Gate Apply.vi" Type="VI" URL="../Signal Synthesis VIs/Gate VIs/Gate Apply.vi"/>
-			<Item Name="PulseTrain-Create.vi" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/PulseTrain-Create.vi"/>
-			<Item Name="Interp1 (poly).vi" Type="VI" URL="../Utility VIs/Math VIs/Interp1 (poly).vi"/>
-			<Item Name="Speaker ring.ctl" Type="VI" URL="../Utility VIs/Type Defs/Speaker ring.ctl"/>
-			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
-			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
-			<Item Name="CAL-Get MAX SPL (click).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (click).vi"/>
 			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
-			<Item Name="PXI Atten to Multiplier.vi" Type="VI" URL="../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Atten to Multiplier.vi"/>
-			<Item Name="PXI-Set AO Gains and Multipliers.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AO Gains and Multipliers.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
 			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
 			<Item Name="ABR3-Analysis State.ctl" Type="VI" URL="../LV Source/ABR VIs/TypeDefs/ABR3-Analysis State.ctl"/>
@@ -670,7 +677,6 @@
 			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
-			<Item Name="ABR-Hidden Params.ctl" Type="VI" URL="../LV Source/ABR VIs/Standard ABR VIs/Typedefs/ABR-Hidden Params.ctl"/>
 			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
 			<Item Name="CM-Endpoint Name To Device.vim" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoint Name To Device.vim"/>
 			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
@@ -682,6 +688,81 @@
 			<Item Name="CTR-Engine.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/CTR-Engine.vi"/>
 			<Item Name="CTR-Initialize.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Sub VIs/CTR-Initialize.vi"/>
 			<Item Name="CTR-Task Specification.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Task Specification.ctl"/>
+			<Item Name="Interp1 (poly).vi" Type="VI" URL="../Utility VIs/Math VIs/Interp1 (poly).vi"/>
+			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
+			<Item Name="Filter.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Filter/Filter.lvclass"/>
+			<Item Name="AM.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Modulations/AM/AM.lvclass"/>
+			<Item Name="Level.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Level/Level.lvclass"/>
+			<Item Name="Gate.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Gate/Gate.lvclass"/>
+			<Item Name="Waveform.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Waveform/Waveform.lvclass"/>
+			<Item Name="Channel.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Channel/Channel.lvclass"/>
+			<Item Name="SignalManager.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/SignalManager/SignalManager.lvclass"/>
+			<Item Name="nearest multiple.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/nearest multiple.vi"/>
+			<Item Name="Array-Unique Strings.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Unique Strings.vi"/>
+			<Item Name="File.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/File/File.lvclass"/>
+			<Item Name="Wave-EPL Chunk Variable.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-EPL Chunk Variable.ctl"/>
+			<Item Name="Wave-Chunk Info.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Chunk Info.ctl"/>
+			<Item Name="Wave-Parse EPL Chunk.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Parse EPL Chunk.vi"/>
+			<Item Name="Wave-Skip Chunk.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Skip Chunk.vi"/>
+			<Item Name="Wave-Read Chunk.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Read Chunk.vi"/>
+			<Item Name="Wave-Find Chunk.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Find Chunk.vi"/>
+			<Item Name="Wave-Check Riff.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Check Riff.vi"/>
+			<Item Name="Wave-Open File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Open File.vi"/>
+			<Item Name="Wave-Read EPL Chunk.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Read EPL Chunk.vi"/>
+			<Item Name="Tone.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Tone/Tone.lvclass"/>
+			<Item Name="X1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/X1000.vi"/>
+			<Item Name="interp1 (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (2D).vi"/>
+			<Item Name="Math-FFTinv dB,degrees to x(t).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-FFTinv dB,degrees to x(t).vi"/>
+			<Item Name="CF,BW to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,BW to Fmin,Fmax.vi"/>
+			<Item Name="CF,Oct to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,Oct to Fmin,Fmax.vi"/>
+			<Item Name="Z to dB, degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees.vi"/>
+			<Item Name="Z to dB, degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (1D).vi"/>
+			<Item Name="Z to dB, degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (2D).vi"/>
+			<Item Name="Noise.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Noise/Noise.lvclass"/>
+			<Item Name="Noise.Buffer.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Sub VIs/Noise.Buffer.vi"/>
+			<Item Name="Array-Circular Subarray.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Circular Subarray.vi"/>
+			<Item Name="CAL-Interp (Fs, Npts).vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Interp (Fs, Npts).vi"/>
+			<Item Name="Tone Cloud.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Tone Cloud/Tone Cloud.lvclass"/>
+			<Item Name="UserVars-Expression to Vector.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Expression to Vector.vi"/>
+			<Item Name="UserVars-Draw From Random Distribution.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Draw From Random Distribution.vi"/>
+			<Item Name="UserVars-Parse Vector Expression.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Parse Vector Expression.vi"/>
+			<Item Name="UserVars-Substitute Constants.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Substitute Constants.vi"/>
+			<Item Name="Math-Arbitrary Distribution.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Arbitrary Distribution.vi"/>
+			<Item Name="Math-Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Exponential RNG.vi"/>
+			<Item Name="Math-Discrete Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Exponential RNG.vi"/>
+			<Item Name="Math-Bernoulli Trial.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Bernoulli Trial.vi"/>
+			<Item Name="UserVars-Permute Vector.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Permute Vector.vi"/>
+			<Item Name="Math-Uniform Random Number (I32, 1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Uniform Random Number (I32, 1D).vi"/>
+			<Item Name="Math-Discrete Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Gaussian RNG.vi"/>
+			<Item Name="Math-Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Gaussian RNG.vi"/>
+			<Item Name="Time Period To Num Samples.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Time Period To Num Samples.vi"/>
+			<Item Name="CommonSig-Create Gate.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Create Gate.vi"/>
+			<Item Name="CommonSig-Sin2 Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Sin2 Ramp.vi"/>
+			<Item Name="Graphics-Y Marker Text (XY graph).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Y Marker Text (XY graph).vi"/>
+			<Item Name="Graphics-Plot Colorbar.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Plot Colorbar.vi"/>
+			<Item Name="FM Sweep.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/FM Sweep/FM Sweep.lvclass"/>
+			<Item Name="Pulse Train.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Pulse Train/Pulse Train.lvclass"/>
+			<Item Name="LaserCal-V to mW.vi" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/SubVIs/LaserCal-V to mW.vi"/>
+			<Item Name="Math-Column Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Column Mean.vi"/>
+			<Item Name="FFTtoR,Theta (1D).VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta (1D).VI"/>
+			<Item Name="LaserCal-mW to V.vi" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/SubVIs/LaserCal-mW to V.vi"/>
+			<Item Name="LaserCal-mW to V (static).vi" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/SubVIs/LaserCal-mW to V (static).vi"/>
+			<Item Name="Moving Ripple Noise.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Moving Ripple Noise/Moving Ripple Noise.lvclass"/>
+			<Item Name="Graphics-Y Marker Text (intensity graph).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Y Marker Text (intensity graph).vi"/>
+			<Item Name="SAM.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Modulations/SAM/SAM.lvclass"/>
+			<Item Name="File-Change Extension.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/File-Change Extension.vi"/>
+			<Item Name="LaserCal-Load Data (I-O).vi" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/SubVIs/LaserCal-Load Data (I-O).vi"/>
+			<Item Name="LaserCal-Data (I-O).ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-Data (I-O).ctl"/>
+			<Item Name="LaserCal-System ID.ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-System ID.ctl"/>
+			<Item Name="LaserCal-Stimulus Params.ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-Stimulus Params.ctl"/>
+			<Item Name="LaserCal-Control Mode.ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-Control Mode.ctl"/>
+			<Item Name="LaserCal-IO Response Params.ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-IO Response Params.ctl"/>
+			<Item Name="LaserCal-Data (Dynamic).ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-Data (Dynamic).ctl"/>
+			<Item Name="LaserCal-Data (PT).ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-Data (PT).ctl"/>
+			<Item Name="Graphics-Init Y-axis Overlay.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Init Y-axis Overlay.vi"/>
+			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="Graphics-Sort XY Graph (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (1D).vi"/>
+			<Item Name="Graphics-Sort XY Graph (scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Sort XY Graph (scalar).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
