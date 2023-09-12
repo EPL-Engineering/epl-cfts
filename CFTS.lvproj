@@ -25,7 +25,6 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -655,8 +654,6 @@
 			<Item Name="Gate Apply.vi" Type="VI" URL="../Signal Synthesis VIs/Gate VIs/Gate Apply.vi"/>
 			<Item Name="PulseTrain-Create.vi" Type="VI" URL="../Signal Synthesis VIs/Waveform VIs/Pulse Train VIs/PulseTrain-Create.vi"/>
 			<Item Name="Interp1 (poly).vi" Type="VI" URL="../Utility VIs/Math VIs/Interp1 (poly).vi"/>
-			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
-			<Item Name="PXI-Set Counter Config.vi" Type="VI" URL="../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Counter Config.vi"/>
 			<Item Name="Speaker ring.ctl" Type="VI" URL="../Utility VIs/Type Defs/Speaker ring.ctl"/>
 			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
 			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
@@ -676,6 +673,15 @@
 			<Item Name="ABR-Hidden Params.ctl" Type="VI" URL="../LV Source/ABR VIs/Standard ABR VIs/Typedefs/ABR-Hidden Params.ctl"/>
 			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
 			<Item Name="CM-Endpoint Name To Device.vim" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoint Name To Device.vim"/>
+			<Item Name="PXI-Coerce Rep Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Coerce Rep Rate.vi"/>
+			<Item Name="CTR-Configure.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Wrapper VIs/CTR-Configure.vi"/>
+			<Item Name="CTR-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Action.ctl"/>
+			<Item Name="CTR-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Config.ctl"/>
+			<Item Name="CTR-Compute Ticks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Sub VIs/CTR-Compute Ticks.vi"/>
+			<Item Name="PXI-Find Counter Device.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find Counter Device.vi"/>
+			<Item Name="CTR-Engine.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/CTR-Engine.vi"/>
+			<Item Name="CTR-Initialize.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Sub VIs/CTR-Initialize.vi"/>
+			<Item Name="CTR-Task Specification.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Task Specification.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
