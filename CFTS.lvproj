@@ -442,7 +442,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Text List to Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text List to Array.vi"/>
 			<Item Name="LogSpace.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LogSpace.vi"/>
 			<Item Name="isDir.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/isDir.vi"/>
 			<Item Name="Array-Parse From String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Parse From String.vi"/>
@@ -489,7 +488,6 @@
 			<Item Name="Config-Read Key (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (I32).vi"/>
 			<Item Name="Config-Read Key (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (DBL).vi"/>
 			<Item Name="UserVars-Expand Repeat Value.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/User Variables/UserVars-Expand Repeat Value.vi"/>
-			<Item Name="Error Handler.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error Handler.vi"/>
 			<Item Name="Write Anything.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Write Anything.vi"/>
 			<Item Name="KBackground Gradient.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KBackground Gradient/KBackground Gradient.xctl"/>
 			<Item Name="Graphics-Create Gradient.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Create Gradient.vi"/>
@@ -539,7 +537,6 @@
 			<Item Name="interp1 (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (1D).vi"/>
 			<Item Name="Math-Linear to dB.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Linear to dB.vim"/>
 			<Item Name="CAL-Interp.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Interp.vi"/>
-			<Item Name="FFT x(t) to dB,Degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (1D).vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (2D).vi"/>
 			<Item Name="FFT x(t) to dB,Degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees.vi"/>
 			<Item Name="CAL-Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Data.ctl"/>
@@ -590,7 +587,6 @@
 			<Item Name="AIDI-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Action.ctl"/>
 			<Item Name="AIDI-Engine.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/AIDI-Engine.vi"/>
 			<Item Name="DAQ-Stop All.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Stop All.vi"/>
-			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
 			<Item Name="Create Waveform Cluster.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster.vi"/>
 			<Item Name="IECal-Check Mic Level.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Check Mic Level.vi"/>
 			<Item Name="PXI-Is Any Task 16-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Any Task 16-bit.vi"/>
@@ -787,9 +783,7 @@
 			<Item Name="PXI-Set Skip Samples.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Skip Samples.vi"/>
 			<Item Name="Left-Right ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Left-Right ring.ctl"/>
 			<Item Name="CFTS-Experiment State.ctl" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Experiment State.ctl"/>
-			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
-			<Item Name="Error Handler.vi" Type="VI" URL="../../Utility VIs/Error Handling VIs/Error Handler.vi"/>
 			<Item Name="CIE-2 Tone.vi" Type="VI" URL="../../Calibration VIs/CIE-2 Tone.vi"/>
 			<Item Name="DP-Stim Params (F1L1).ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Stim Params (F1L1).ctl"/>
 			<Item Name="LinSpace.vi" Type="VI" URL="../../Utility VIs/Math VIs/LinSpace.vi"/>
@@ -806,8 +800,6 @@
 			<Item Name="PXI Attens to Multipliers (1D).vi" Type="VI" URL="../../PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Attens to Multipliers (1D).vi"/>
 			<Item Name="PXI Multipliers to AO Gains.vi" Type="VI" URL="../../PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains.vi"/>
 			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
-			<Item Name="dB to Linear.vi" Type="VI" URL="../../Utility VIs/Math VIs/dB to Linear.vi"/>
-			<Item Name="dB to Linear (1D).vi" Type="VI" URL="../../Utility VIs/Math VIs/dB to Linear (1D).vi"/>
 			<Item Name="About Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/About Equal.vi"/>
 			<Item Name="Chamber Memory.vi" Type="VI" URL="../LV Source/DPOAE VIs/Memory VIs/Chamber Memory.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../../Utility VIs/Sound VIs/Beeper.vi"/>
@@ -821,23 +813,19 @@
 			<Item Name="SGDA-Start.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Start.vi"/>
 			<Item Name="SGDA-Read Data.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Read Data.vi"/>
 			<Item Name="SGDA-Status.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Status.vi"/>
-			<Item Name="FFTtoR,Theta (1D).VI" Type="VI" URL="../../Utility VIs/Math VIs/FFTtoR,Theta (1D).VI"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="Linear to dB.vi" Type="VI" URL="../../Utility VIs/Math VIs/Linear to dB.vi"/>
 			<Item Name="Linear to dB (scalar).vi" Type="VI" URL="../../Utility VIs/Math VIs/Linear to dB (scalar).vi"/>
 			<Item Name="SGDA-Stop.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Stop.vi"/>
 			<Item Name="Error-Resume.vi" Type="VI" URL="../../Utility VIs/Error Handling VIs/Error-Resume.vi"/>
 			<Item Name="Linear to dB (array).vi" Type="VI" URL="../../Utility VIs/Math VIs/Linear to dB (array).vi"/>
-			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
-			<Item Name="Listbox-Get Selections.vi" Type="VI" URL="../../Utility VIs/Controls/Listbox-Get Selections.vi"/>
+			<Item Name="Listbox-Get Selections.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Listbox-Get Selections.vi"/>
 			<Item Name="UserVars-Expression to Vector (V2).vi" Type="VI" URL="../../Utility VIs/User Variables/UserVars-Expression to Vector (V2).vi"/>
 			<Item Name="Data Available Queue.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/Data Available Queue.vi"/>
 			<Item Name="PXI-Check for DAQ error.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-Check for DAQ error.vi"/>
 			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
 			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
 			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
-			<Item Name="Irregular Array Subset (DBL).vi" Type="VI" URL="../../Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL).vi"/>
-			<Item Name="interp1 (1D).vi" Type="VI" URL="../../Utility VIs/Math VIs/interp1 (1D).vi"/>
 			<Item Name="Input sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Input sources.ctl"/>
 			<Item Name="CAL-Probe Tube Cal Path (L-R).vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Probe Tube Cal Path (L-R).vi"/>
 			<Item Name="CAL-Load data.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Load data.vi"/>
@@ -850,15 +838,9 @@
 			<Item Name="TDT-Stream AO.vi" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT-Stream AO.vi"/>
 			<Item Name="TDT-Init ActiveX.vi" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT-Init ActiveX.vi"/>
 			<Item Name="Output sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Output sources.ctl"/>
-			<Item Name="Text List to Array.vi" Type="VI" URL="../../Utility VIs/Text VIs/Text List to Array.vi"/>
 			<Item Name="Set Window Width.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Set Window Width.vi"/>
-			<Item Name="KLegend.xctl" Type="XControl" URL="../../Utility VIs/Controls/KLegend/KLegend.xctl"/>
-			<Item Name="Graphic-Generate Color Map.vi" Type="VI" URL="../../Utility VIs/Graphics VIs/Graphic-Generate Color Map.vi"/>
 			<Item Name="Approx Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal.vi"/>
 			<Item Name="Approx Equal (1D-Scalar).vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal (1D-Scalar).vi"/>
-			<Item Name="FFT x(t) to dB,Degrees.vi" Type="VI" URL="../../Utility VIs/Math VIs/FFT x(t) to dB,Degrees.vi"/>
-			<Item Name="FFT x(t) to dB,Degrees (1D).vi" Type="VI" URL="../../Utility VIs/Math VIs/FFT x(t) to dB,Degrees (1D).vi"/>
-			<Item Name="CFTS-Menu Handler.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Menu Handler.vi"/>
 			<Item Name="CFTS-Aborted Run File Save Query.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Aborted Run File Save Query.vi"/>
 			<Item Name="DP Analysis Panel.vi" Type="VI" URL="../LV Source/DPOAE VIs/DP Analysis Panel.vi"/>
 			<Item Name="Freefield Calibration.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Freefield Calibration.vi"/>
@@ -880,7 +862,13 @@
 			<Item Name="DP-Rejection Settings Refnum.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Rejection Settings Refnum.ctl"/>
 			<Item Name="DP-Rejection Settings.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Rejection Settings.ctl"/>
 			<Item Name="CFTS-Is Advanced User.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Is Advanced User.vi"/>
-			<Item Name="CFTS-Next Data File.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Next Data File.vi"/>
+			<Item Name="Text List to Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text List to Array.vi"/>
+			<Item Name="Error Handler.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error Handler.vi"/>
+			<Item Name="FFT x(t) to dB,Degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (1D).vi"/>
+			<Item Name="Create Waveform Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Conversion VIs/Create Waveform Cluster (1D).vi"/>
+			<Item Name="DP mode ring to Text.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/DP mode ring to Text.vi"/>
+			<Item Name="DP I-O Init Data File.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/DP I-O Init Data File.vi"/>
+			<Item Name="DP Stimulus Params.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP Stimulus Params.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
