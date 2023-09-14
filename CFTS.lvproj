@@ -779,7 +779,6 @@
 			<Item Name="Left-Right ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Left-Right ring.ctl"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
 			<Item Name="CIE-2 Tone.vi" Type="VI" URL="../../Calibration VIs/CIE-2 Tone.vi"/>
-			<Item Name="Find Run.vi" Type="VI" URL="../../Utility VIs/Array Manipulation VIs/Find Run.vi"/>
 			<Item Name="About Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/About Equal.vi"/>
 			<Item Name="Chamber Memory.vi" Type="VI" URL="../LV Source/DPOAE VIs/Memory VIs/Chamber Memory.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../../Utility VIs/Sound VIs/Beeper.vi"/>
@@ -843,6 +842,7 @@
 			<Item Name="Math-X1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-X1000.vim"/>
 			<Item Name="CAL-Get Max SPL.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Get Max SPL.vi"/>
 			<Item Name="Math-Divide By 1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Divide By 1000.vim"/>
+			<Item Name="Math-Find Run.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Find Run.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
