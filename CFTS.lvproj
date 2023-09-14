@@ -534,7 +534,6 @@
 			<Item Name="CAL-Globals.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Typedefs/CAL-Globals.vi"/>
 			<Item Name="Math-dB To Linear.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-dB To Linear.vim"/>
 			<Item Name="dB, degrees to Z.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB, degrees to Z.vi"/>
-			<Item Name="interp1 (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (1D).vi"/>
 			<Item Name="Math-Linear to dB.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Linear to dB.vim"/>
 			<Item Name="CAL-Interp.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Interp.vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (2D).vi"/>
@@ -802,8 +801,6 @@
 			<Item Name="Set Window Width.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Set Window Width.vi"/>
 			<Item Name="Approx Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal.vi"/>
 			<Item Name="Approx Equal (1D-Scalar).vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal (1D-Scalar).vi"/>
-			<Item Name="CFTS-Aborted Run File Save Query.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Aborted Run File Save Query.vi"/>
-			<Item Name="DP Analysis Panel.vi" Type="VI" URL="../LV Source/DPOAE VIs/DP Analysis Panel.vi"/>
 			<Item Name="Freefield Calibration.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Freefield Calibration.vi"/>
 			<Item Name="FF-Main Menu.rtm" Type="Document" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Main Menu.rtm"/>
 			<Item Name="FF-Queue Data.ctl" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Typedefs/FF-Queue Data.ctl"/>
@@ -841,6 +838,7 @@
 			<Item Name="CommonSig-Apply Ramp.vim" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vim"/>
 			<Item Name="FFTtoR,Theta.VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta.VI"/>
 			<Item Name="Matrix MinMax By Row Or Column.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Matrix MinMax By Row Or Column.vi"/>
+			<Item Name="DAQ-Abort FGV.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/DAQ-Abort FGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
