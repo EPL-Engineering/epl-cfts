@@ -778,7 +778,6 @@
 			<Item Name="PXI-Set Skip Samples.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Skip Samples.vi"/>
 			<Item Name="Left-Right ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Left-Right ring.ctl"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
-			<Item Name="CIE-2 Tone.vi" Type="VI" URL="../../Calibration VIs/CIE-2 Tone.vi"/>
 			<Item Name="About Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/About Equal.vi"/>
 			<Item Name="Chamber Memory.vi" Type="VI" URL="../LV Source/DPOAE VIs/Memory VIs/Chamber Memory.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../../Utility VIs/Sound VIs/Beeper.vi"/>
@@ -789,13 +788,8 @@
 			<Item Name="ABI Globals.vi" Type="VI" URL="../../ABI Chamber VIs/LV Source/ABI Chamber Controller/SubVIs/ABI Globals.vi"/>
 			<Item Name="ABI EC-Next data file.vi" Type="VI" URL="../LV Source/Experiment Controllers/ABI Chamber Controller/ABI EC-Next data file.vi"/>
 			<Item Name="Replace tag.vi" Type="VI" URL="../../Utility VIs/Text VIs/Replace tag.vi"/>
-			<Item Name="SGDA-Start.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Start.vi"/>
-			<Item Name="SGDA-Read Data.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Read Data.vi"/>
-			<Item Name="SGDA-Status.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Status.vi"/>
 			<Item Name="Linear to dB.vi" Type="VI" URL="../../Utility VIs/Math VIs/Linear to dB.vi"/>
 			<Item Name="Linear to dB (scalar).vi" Type="VI" URL="../../Utility VIs/Math VIs/Linear to dB (scalar).vi"/>
-			<Item Name="SGDA-Stop.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/SGDA VIs/SGDA-Stop.vi"/>
-			<Item Name="Error-Resume.vi" Type="VI" URL="../../Utility VIs/Error Handling VIs/Error-Resume.vi"/>
 			<Item Name="Linear to dB (array).vi" Type="VI" URL="../../Utility VIs/Math VIs/Linear to dB (array).vi"/>
 			<Item Name="Listbox-Get Selections.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Listbox-Get Selections.vi"/>
 			<Item Name="UserVars-Expression to Vector (V2).vi" Type="VI" URL="../../Utility VIs/User Variables/UserVars-Expression to Vector (V2).vi"/>
@@ -843,6 +837,10 @@
 			<Item Name="CAL-Get Max SPL.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Get Max SPL.vi"/>
 			<Item Name="Math-Divide By 1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Divide By 1000.vim"/>
 			<Item Name="Math-Find Run.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Find Run.vi"/>
+			<Item Name="FFTtoR,Theta (2D).VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta (2D).VI"/>
+			<Item Name="CommonSig-Apply Ramp.vim" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vim"/>
+			<Item Name="FFTtoR,Theta.VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta.VI"/>
+			<Item Name="Matrix MinMax By Row Or Column.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Matrix MinMax By Row Or Column.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
