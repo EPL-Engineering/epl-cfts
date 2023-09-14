@@ -672,7 +672,6 @@
 			<Item Name="ABR3-Analysis State.ctl" Type="VI" URL="../LV Source/ABR VIs/TypeDefs/ABR3-Analysis State.ctl"/>
 			<Item Name="Config-Read Key.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key.vi"/>
 			<Item Name="Config-Read Key (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (string).vi"/>
-			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
 			<Item Name="Append to Text File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Append to Text File.vi"/>
 			<Item Name="String Array to Comma Separated String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/String Array to Comma Separated String.vi"/>
 			<Item Name="CM-Endpoint Name To Device.vim" Type="VI" URL="../../epl-vi-lib/Connection VIs/Top Level VIs/CM-Endpoint Name To Device.vim"/>
@@ -705,8 +704,6 @@
 			<Item Name="Wave-Open File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Open File.vi"/>
 			<Item Name="Wave-Read EPL Chunk.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Wave File VIs/Wave-Read EPL Chunk.vi"/>
 			<Item Name="Tone.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Tone/Tone.lvclass"/>
-			<Item Name="X1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/X1000.vi"/>
-			<Item Name="interp1 (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (2D).vi"/>
 			<Item Name="Math-FFTinv dB,degrees to x(t).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-FFTinv dB,degrees to x(t).vi"/>
 			<Item Name="CF,BW to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,BW to Fmin,Fmax.vi"/>
 			<Item Name="CF,Oct to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,Oct to Fmin,Fmax.vi"/>
@@ -782,13 +779,6 @@
 			<Item Name="Left-Right ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Left-Right ring.ctl"/>
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
 			<Item Name="CIE-2 Tone.vi" Type="VI" URL="../../Calibration VIs/CIE-2 Tone.vi"/>
-			<Item Name="Speaker ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Speaker ring.ctl"/>
-			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
-			<Item Name="CAL-Get Max SPL (tone, 1D).vi" Type="VI" URL="../../Calibration VIs/Analysis VIs/CAL-Get Max SPL (tone, 1D).vi"/>
-			<Item Name="Matrix MinMax By Row Or Column.vi" Type="VI" URL="../../Utility VIs/Array Manipulation VIs/Matrix MinMax By Row Or Column.vi"/>
-			<Item Name="Equip-Get AO Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AO Channels.vi"/>
-			<Item Name="CM-TDT-Endpoint To Sequential Connection Number (1D String).vi" Type="VI" URL="../../Misc VIs/Connection Manager/TDT VIs/CM-TDT-Endpoint To Sequential Connection Number (1D String).vi"/>
-			<Item Name="Cxns-Get Connections File Path.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Sub VIs/Cxns-Get Connections File Path.vi"/>
 			<Item Name="Find Run.vi" Type="VI" URL="../../Utility VIs/Array Manipulation VIs/Find Run.vi"/>
 			<Item Name="About Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/About Equal.vi"/>
 			<Item Name="Chamber Memory.vi" Type="VI" URL="../LV Source/DPOAE VIs/Memory VIs/Chamber Memory.vi"/>
@@ -837,8 +827,6 @@
 			<Item Name="CalMic-Load Calibration Log.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Load Calibration Log.vi"/>
 			<Item Name="CalMic-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Restore Defaults.vi"/>
 			<Item Name="DP-Advanced Options.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Advanced Options.ctl"/>
-			<Item Name="DP-Rejection Settings Refnum.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Rejection Settings Refnum.ctl"/>
-			<Item Name="DP-Rejection Settings.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Rejection Settings.ctl"/>
 			<Item Name="CFTS-Is Advanced User.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Is Advanced User.vi"/>
 			<Item Name="Text List to Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text List to Array.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error Handler.vi"/>
@@ -850,10 +838,11 @@
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="DP-StimGen.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-StimGen.ctl"/>
 			<Item Name="DP-DataAcq.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-DataAcq.ctl"/>
-			<Item Name="DP I-O Append Data.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/DP I-O Append Data.vi"/>
 			<Item Name="Extract DPs and Noise.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/Extract DPs and Noise.vi"/>
-			<Item Name="DP-Artifact Rejection.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/DP-Artifact Rejection.vi"/>
-			<Item Name="DP-Init Level.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/DP-Init Level.vi"/>
+			<Item Name="Math-Interp1.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Interp1.vim"/>
+			<Item Name="Math-X1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-X1000.vim"/>
+			<Item Name="CAL-Get Max SPL.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Get Max SPL.vi"/>
+			<Item Name="Math-Divide By 1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Divide By 1000.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
