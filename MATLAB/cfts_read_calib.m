@@ -12,72 +12,32 @@ function [out1, Mag, Phase, Header] = cfts_read_calib(fn)
 % Header  : header structure 
 %
 
-% Open data file
-fp = fopen(fn, 'rt');
-if fp == -1
-   error('Cannot open file for reading.');
+% Read text from calibration file
+text = fileread(fn);
+
+if ~startsWith(text, '[ACOUSTIC CALIBRATION]')
+   error('need to implement backward compatibility');
 end
 
-% File information
-fgetl(fp);
-line = fgetl(fp);
-Header.originalFilename = line(11:end);
-line = fgetl(fp);
-Header.date = line(7:end);
+isplit = strfind(text, 'Freq(Hz)');
+headerText = text(1:isplit-1);
+Header = parse_ini(headerText);
+Header.Info = Header.ACOUSTIC_CALIBRATION;
+Header = rmfield(Header, 'ACOUSTIC_CALIBRATION');
 
-line = fgetl(fp);
-if contains(line, 'Format')
-   Header.format = sscanf(line, 'Format: %d');
-   line = fgetl(fp);
-end
+dataText = text(isplit:end);
+inl = find(dataText == newline, 1);
+data = textscan(dataText(inl+1:end), '%f %f %f');
 
-if contains(line, 'Probe Tube')
-   Header.probeTubeFile = sscanf(line, 'Probe Tube Correction File: %s');
-   line = fgetl(fp);
-end
-
-Header.revision = sscanf(line, 'Experiment VIs: %d');
-Header.app = fgetl(fp);
-Header.daqmx = fgetl(fp);
-
-% Blank line
-fgetl(fp);
-
-% Calibration settings section
-Header.Atten = read_double(fp, 'Attenuation (dB):');
-Header.MinFreq = read_double(fp, 'Min Freq (Hz):');
-Header.MaxFreq = read_double(fp, 'Max Freq (Hz):');
-Header.FreqStep = read_double(fp, 'Freq Step (Hz):');
-Header.SamplingRate = read_double(fp, 'Sample rate (Hz):');
-
-% Advance to the data
-ncols = 3;
-while ~feof(fp)
-   if ~isempty(line) && strcmp(line,'[Smoothing]')
-      ncols = 4;
-   end
-   
-   if ~isempty(line) && strcmpi(line(1:4), 'Freq')
-      break;
-   end
-   line = fgetl(fp);
-end
-
-a = fscanf(fp, '%f', [ncols Inf]);
-Freq_Hz = a(1,:);
-Mag = a(2,:);
-Phase = a(3,:);
-if size(a, 1) > 3
-%    Unsmoothed = a(4, :);
-%    Mag = a(4, :);
-end
-
-fclose(fp);
+Freq_Hz = data{1}';
+Mag = data{2}';
+Phase = data{3}';
 
 if nargout == 1
    out1.Freq = Freq_Hz;
    out1.Mag = Mag;
    out1.Phase = Phase;
+   out1.Header = Header;
 else
    out1 = Freq_Hz;
 end
@@ -88,9 +48,6 @@ function val = read_double(fp, label)
 %
 line = fgetl(fp);
 val = str2double(line(length(label)+1:end));
-
-function c = contains(str1, str2)
-c = ~isempty(strfind(str1, str2));
 
 %--------------------------------------------------------------------------
 % END OF CFTS_READ_CALIB.M

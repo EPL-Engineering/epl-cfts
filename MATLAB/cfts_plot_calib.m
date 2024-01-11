@@ -1,4 +1,4 @@
-function HFig = plot_cfts_calib(varargin)
+function HFig = cfts_plot_calib(varargin)
 
 if nargin > 1
    fig = varargin{1};
@@ -15,7 +15,6 @@ if isempty(fig) || ~ishandle(fig)
    else
       figure;
    end
-%    SetFigStyle('work');
    hold on;
 else
    figure(fig);
