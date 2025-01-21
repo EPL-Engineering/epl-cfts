@@ -763,7 +763,6 @@
 			<Item Name="Config-Write Key (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (DBL).vi"/>
 			<Item Name="Config-Write Key (Boolean).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key (Boolean).vi"/>
 			<Item Name="Config-Write Key.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Write Key.vi"/>
-			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
 			<Item Name="Range.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Range.vi"/>
 			<Item Name="PXI-General Init.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-General Init.vi"/>
 			<Item Name="PXI-Set AI Config.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set AI Config.vi"/>
@@ -796,7 +795,6 @@
 			<Item Name="PXI-Check for DAQ error.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-Check for DAQ error.vi"/>
 			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
 			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
-			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
 			<Item Name="CAL-Load data.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Load data.vi"/>
 			<Item Name="Set Window Width.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Set Window Width.vi"/>
 			<Item Name="Approx Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal.vi"/>
@@ -825,7 +823,6 @@
 			<Item Name="DP mode ring to Text.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/DP mode ring to Text.vi"/>
 			<Item Name="DP Stimulus Params.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP Stimulus Params.ctl"/>
 			<Item Name="LinSpace (start-stop-step).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace (start-stop-step).vi"/>
-			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="DP-StimGen.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-StimGen.ctl"/>
 			<Item Name="DP-DataAcq.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-DataAcq.ctl"/>
 			<Item Name="Extract DPs and Noise.vi" Type="VI" URL="../LV Source/DPOAE VIs/SubVIs/Extract DPs and Noise.vi"/>
@@ -839,6 +836,52 @@
 			<Item Name="FFTtoR,Theta.VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta.VI"/>
 			<Item Name="Matrix MinMax By Row Or Column.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Matrix MinMax By Row Or Column.vi"/>
 			<Item Name="DAQ-Abort FGV.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/DAQ-Abort FGV.vi"/>
+			<Item Name="Error-Format Stack.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error-Format Stack.vi"/>
+			<Item Name="Logger-Log Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Error.vi"/>
+			<Item Name="Logger-Queue Data.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Queue Data.ctl"/>
+			<Item Name="Logger-Action.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Action.ctl"/>
+			<Item Name="Logger-Level.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Level.ctl"/>
+			<Item Name="TDT-Enumerate Devices.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Devices.vi"/>
+			<Item Name="TDT-Device ID.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Device ID.ctl"/>
+			<Item Name="TDT-Output source.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Typedefs/TDT-Output source.ctl"/>
+			<Item Name="TDT-Connect ZBUS.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Connect ZBUS.vi"/>
+			<Item Name="TDT-Init RPcoX.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Init RPcoX.vi"/>
+			<Item Name="TDT-Sampling Rate to LoadCOFsf Input.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Sampling Rate to LoadCOFsf Input.vi"/>
+			<Item Name="TDT-Write Tag.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Write Tag.vi"/>
+			<Item Name="TDT-Run Circuit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Run Circuit.vi"/>
+			<Item Name="TDT-Enumerate Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Enumerate Channels.vi"/>
+			<Item Name="TDT-Stream AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Stream AI.vi"/>
+			<Item Name="TDT-Signal Bank Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Signal Bank Action.ctl"/>
+			<Item Name="TDT-Globals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Globals.vi"/>
+			<Item Name="TDT-Wait For AI Buffer Space.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For AI Buffer Space.vi"/>
+			<Item Name="TDTRX6-Read Input Buffers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Deprecated/TDTRX6-Read Input Buffers.vi"/>
+			<Item Name="TDT-Halt.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Halt.vi"/>
+			<Item Name="dB to Linear.vi" Type="VI" URL="../../Utility VIs/Math VIs/dB to Linear.vi"/>
+			<Item Name="dB to Linear (scalar).vi" Type="VI" URL="../../Utility VIs/Math VIs/dB to Linear (scalar).vi"/>
+			<Item Name="Gate Apply.vi" Type="VI" URL="../../Signal Synthesis VIs/Gate VIs/Gate Apply.vi"/>
+			<Item Name="Input sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Input sources.ctl"/>
+			<Item Name="Output sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Output sources.ctl"/>
+			<Item Name="Equip-Get AO Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AO Channels.vi"/>
+			<Item Name="Equip-Get AI Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AI Channels.vi"/>
+			<Item Name="Speaker ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Speaker ring.ctl"/>
+			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
+			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
+			<Item Name="ABR-Read Header.vi" Type="VI" URL="../LV Source/ABR VIs/SubVIs/ABR-Read Header.vi"/>
+			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
+			<Item Name="CFTS-Next Data File.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Next Data File.vi"/>
+			<Item Name="PXI-DAQ Status.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-DAQ Status.vi"/>
+			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
+			<Item Name="Graphics-Init X-axis Overlay.vi" Type="VI" URL="../../Utility VIs/Graphics VIs/Graphics-Init X-axis Overlay.vi"/>
+			<Item Name="Logger-Log Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Info.vi"/>
+			<Item Name="Logger.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Logger.vi"/>
+			<Item Name="Logger-State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-State.ctl"/>
+			<Item Name="Logger-Flush Log.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Flush Log.vi"/>
+			<Item Name="Logger-Purge Old Logs.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Purge Old Logs.vi"/>
+			<Item Name="Logger-Init Log File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Init Log File.vi"/>
+			<Item Name="Logger-Start.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Logger-Start.vi"/>
+			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
+			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
+			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
