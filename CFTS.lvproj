@@ -25,6 +25,7 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Array-Permute.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Permute.vim"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -438,6 +439,15 @@
 				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
+				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
+				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
+				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
+				<Item Name="GetFileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfo.vi"/>
+				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
+				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
+				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -778,7 +788,6 @@
 			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
 			<Item Name="About Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/About Equal.vi"/>
 			<Item Name="Chamber Memory.vi" Type="VI" URL="../LV Source/DPOAE VIs/Memory VIs/Chamber Memory.vi"/>
-			<Item Name="Beeper.vi" Type="VI" URL="../../Utility VIs/Sound VIs/Beeper.vi"/>
 			<Item Name="MCL Write Characters To File.vi" Type="VI" URL="../LV Source/DPOAE VIs/EPL Utility VIs/MCL Utility VIs/MCLfile.llb/MCL Write Characters To File.vi"/>
 			<Item Name="MCL Write To Spreadsheet File.vi" Type="VI" URL="../LV Source/DPOAE VIs/EPL Utility VIs/MCL Utility VIs/MCLfile.llb/MCL Write To Spreadsheet File.vi"/>
 			<Item Name="MCL Read From Spreadsheet File.vi" Type="VI" URL="../LV Source/DPOAE VIs/EPL Utility VIs/MCL Utility VIs/MCLfile.llb/MCL Read From Spreadsheet File.vi"/>
@@ -856,13 +865,7 @@
 			<Item Name="TDT-Wait For AI Buffer Space.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Wait For AI Buffer Space.vi"/>
 			<Item Name="TDTRX6-Read Input Buffers.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/Deprecated/TDTRX6-Read Input Buffers.vi"/>
 			<Item Name="TDT-Halt.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Halt.vi"/>
-			<Item Name="dB to Linear.vi" Type="VI" URL="../../Utility VIs/Math VIs/dB to Linear.vi"/>
-			<Item Name="dB to Linear (scalar).vi" Type="VI" URL="../../Utility VIs/Math VIs/dB to Linear (scalar).vi"/>
 			<Item Name="Gate Apply.vi" Type="VI" URL="../../Signal Synthesis VIs/Gate VIs/Gate Apply.vi"/>
-			<Item Name="Input sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Input sources.ctl"/>
-			<Item Name="Output sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Output sources.ctl"/>
-			<Item Name="Equip-Get AO Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AO Channels.vi"/>
-			<Item Name="Equip-Get AI Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AI Channels.vi"/>
 			<Item Name="Speaker ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Speaker ring.ctl"/>
 			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
 			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
@@ -871,7 +874,7 @@
 			<Item Name="CFTS-Next Data File.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Next Data File.vi"/>
 			<Item Name="PXI-DAQ Status.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-DAQ Status.vi"/>
 			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
-			<Item Name="Graphics-Init X-axis Overlay.vi" Type="VI" URL="../../Utility VIs/Graphics VIs/Graphics-Init X-axis Overlay.vi"/>
+			<Item Name="Graphics-Init X-axis Overlay.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Init X-axis Overlay.vi"/>
 			<Item Name="Logger-Log Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Info.vi"/>
 			<Item Name="Logger.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Logger.vi"/>
 			<Item Name="Logger-State.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-State.ctl"/>
@@ -882,6 +885,13 @@
 			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
 			<Item Name="TDT-Coerce Sampling Rate.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/TDT VIs/TDT-Coerce Sampling Rate.vi"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
+			<Item Name="SysInfo-Get Version Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get Version Info.vi"/>
+			<Item Name="GetFileVersion_Win.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/GetFileVersion_Win.vi"/>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Logger-Close Log.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Close Log.vi"/>
+			<Item Name="Beeper.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
@@ -898,6 +908,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A9B55D7-5352-4D1B-8BC9-1E75DCB43BA2}</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -908,7 +919,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{677EB4A6-0902-4535-A2B1-B4AA56B683A1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6F6947DB-41FF-48F3-8497-A3A9BA129E4C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Cochlear Function Test Suite.vi</Property>
@@ -921,7 +932,7 @@
 				<Property Name="TgtF_companyName" Type="Str">Massachusetts Eye &amp; Ear</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_internalName" Type="Str">EPL Cochlear Function Test Suite</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 Massachusetts Eye &amp; Ear</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Massachusetts Eye &amp; Ear</Property>
 				<Property Name="TgtF_productName" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{13ABDE66-6E22-43EE-ACBB-BF5B6F964B10}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EPL_CFTS.exe</Property>
