@@ -25,7 +25,6 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Array-Permute.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Permute.vim"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -872,7 +871,6 @@
 			<Item Name="ABR-Read Header.vi" Type="VI" URL="../LV Source/ABR VIs/SubVIs/ABR-Read Header.vi"/>
 			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
 			<Item Name="CFTS-Next Data File.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Next Data File.vi"/>
-			<Item Name="PXI-DAQ Status.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-DAQ Status.vi"/>
 			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
 			<Item Name="Graphics-Init X-axis Overlay.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Init X-axis Overlay.vi"/>
 			<Item Name="Logger-Log Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Info.vi"/>
@@ -892,6 +890,7 @@
 			</Item>
 			<Item Name="Logger-Close Log.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Close Log.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
+			<Item Name="Array-Permute.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Permute.vim"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
