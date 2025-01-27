@@ -859,8 +859,6 @@
 			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
 			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
 			<Item Name="ABR-Read Header.vi" Type="VI" URL="../LV Source/ABR VIs/SubVIs/ABR-Read Header.vi"/>
-			<Item Name="SysInfo-Version String.vi" Type="VI" URL="../../Utility VIs/System Info VIs/SysInfo-Version String.vi"/>
-			<Item Name="CFTS-Next Data File.vi" Type="VI" URL="../LV Source/CFTS Main Panel SubVIs/CFTS-Next Data File.vi"/>
 			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
 			<Item Name="Graphics-Init X-axis Overlay.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Init X-axis Overlay.vi"/>
 			<Item Name="Logger-Log Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Info.vi"/>
@@ -881,6 +879,7 @@
 			<Item Name="Logger-Close Log.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Close Log.vi"/>
 			<Item Name="Beeper.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
 			<Item Name="Array-Permute.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Permute.vim"/>
+			<Item Name="NaN-Standard Deviation.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/NaN-Standard Deviation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
