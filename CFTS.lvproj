@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="CCSymbols" Type="Str">KDEBUG,False;PSTR,True;HARDWARE,NI;</Property>
+	<Property Name="CCSymbols" Type="Str">KDEBUG,True;PSTR,True;HARDWARE,NI;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -880,6 +880,7 @@
 			<Item Name="Beeper.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Sound VIs/Beeper.vi"/>
 			<Item Name="Array-Permute.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Permute.vim"/>
 			<Item Name="NaN-Standard Deviation.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/NaN-Standard Deviation.vi"/>
+			<Item Name="Diagnostics-Add Noise.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/QA VIs/Diagnostics-Add Noise.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
