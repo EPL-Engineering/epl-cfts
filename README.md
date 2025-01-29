@@ -1,3 +1,5 @@
+![banner](https://github.com/user-attachments/assets/b094effd-351c-4a0e-b5f6-d214fe423cc6)
+
 # EPL Cochlear Function Test Suite
 
 [Changelog](CHANGELOG.md)
