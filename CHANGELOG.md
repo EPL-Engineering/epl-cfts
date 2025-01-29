@@ -7,7 +7,7 @@
 - ABR: ability to use non-EPL compatible acoustic sources (i.e.: w/o a mic, esp. freefield and ER3 inserts)
 - CFTS: added logging
 #### Changed
--ABR: comprehensive data file header
+- ABR: comprehensive data file header
 #### Missing
 - CAL: smoothing, validation
 #### Removed
