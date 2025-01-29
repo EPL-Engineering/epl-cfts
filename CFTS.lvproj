@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
-	<Property Name="CCSymbols" Type="Str">KDEBUG,True;PSTR,True;HARDWARE,NI;</Property>
+	<Property Name="CCSymbols" Type="Str">KDEBUG,False;PSTR,True;HARDWARE,NI;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -25,6 +25,8 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="CHANGELOG.md" Type="Document" URL="../CHANGELOG.md"/>
+		<Item Name="CommonSig-Apply Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -794,7 +796,6 @@
 			<Item Name="StartDAQ notifier.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI Notifier VIs/StartDAQ notifier.vi"/>
 			<Item Name="PXI-StopDAQ.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-StopDAQ.vi"/>
 			<Item Name="CAL-Load data.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Load data.vi"/>
-			<Item Name="Set Window Width.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Set Window Width.vi"/>
 			<Item Name="Approx Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal.vi"/>
 			<Item Name="Approx Equal (1D-Scalar).vi" Type="VI" URL="../../Utility VIs/Comparison VIs/Approx Equal (1D-Scalar).vi"/>
 			<Item Name="Freefield Calibration.vi" Type="VI" URL="../../epl-cal-vi-lib/Freefield Calibration VIs/LV Source/Freefield Calibration.vi"/>
@@ -881,6 +882,8 @@
 			<Item Name="Array-Permute.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Array-Permute.vim"/>
 			<Item Name="NaN-Standard Deviation.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/NaN-Standard Deviation.vi"/>
 			<Item Name="Diagnostics-Add Noise.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/QA VIs/Diagnostics-Add Noise.vi"/>
+			<Item Name="CommonSig-Apply Ramp (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp (1D).vi"/>
+			<Item Name="CommonSig-Apply Ramp (2D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp (2D).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
@@ -897,7 +900,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A9B55D7-5352-4D1B-8BC9-1E75DCB43BA2}</Property>
-				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -908,7 +910,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6F6947DB-41FF-48F3-8497-A3A9BA129E4C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3019253B-4AB9-4616-9378-4C6EFCEB956F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Cochlear Function Test Suite.vi</Property>
@@ -917,8 +919,15 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CHANGELOG.md</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LV Source/cfts-errors.ini</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Massachusetts Eye &amp; Ear</Property>
+				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_internalName" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Massachusetts Eye &amp; Ear</Property>
