@@ -26,7 +26,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="CHANGELOG.md" Type="Document" URL="../CHANGELOG.md"/>
-		<Item Name="CommonSig-Apply Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -884,6 +883,7 @@
 			<Item Name="Diagnostics-Add Noise.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/QA VIs/Diagnostics-Add Noise.vi"/>
 			<Item Name="CommonSig-Apply Ramp (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp (1D).vi"/>
 			<Item Name="CommonSig-Apply Ramp (2D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp (2D).vi"/>
+			<Item Name="CommonSig-Apply Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
@@ -910,7 +910,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3019253B-4AB9-4616-9378-4C6EFCEB956F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B1D82269-05DA-4784-9FCA-5D1D6FBF141B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Cochlear Function Test Suite.vi</Property>

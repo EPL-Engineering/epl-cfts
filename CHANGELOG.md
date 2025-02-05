@@ -1,5 +1,11 @@
 ## Changelog
 
+### v3.0.1 (2025-05-02)
+#### Fixed
+- Fast ABR: removed kluge that overrode alternating polarity
+
+---
+
 ### v3.0 (2025-01-29)
 - initial GitHub release
 #### Added
