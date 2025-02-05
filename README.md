@@ -2,7 +2,7 @@
 
 # EPL Cochlear Function Test Suite
 
-[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.0/EPL_CFTS_Install_3-0.exe)
+[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.0.1/EPL_CFTS_Install_3-0-1.exe)
 
 ### Prerequisites
 The software requires the following two installations from National Instruments. Both are free downloads, but registration may be required.
