@@ -438,6 +438,20 @@
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
+				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
+				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -604,7 +618,6 @@
 			<Item Name="IECal-Find Last N.vi" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/SubVIs/IECal-Find Last N.vi"/>
 			<Item Name="Build.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build.vi"/>
 			<Item Name="Build-Get Specs.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Get Specs.vi"/>
-			<Item Name="Build-Set Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Set Version.vi"/>
 			<Item Name="Build-Clear Build Folder.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Clear Build Folder.vi"/>
 			<Item Name="Build-Build Items.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Build Items.vi"/>
 			<Item Name="Build-Create Installer.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Create Installer.vi"/>
@@ -830,7 +843,6 @@
 			<Item Name="Math-Divide By 1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Divide By 1000.vim"/>
 			<Item Name="Math-Find Run.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Find Run.vi"/>
 			<Item Name="FFTtoR,Theta (2D).VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta (2D).VI"/>
-			<Item Name="CommonSig-Apply Ramp.vim" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vim"/>
 			<Item Name="FFTtoR,Theta.VI" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFTtoR,Theta.VI"/>
 			<Item Name="Matrix MinMax By Row Or Column.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Matrix MinMax By Row Or Column.vi"/>
 			<Item Name="DAQ-Abort FGV.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/DAQ-Abort FGV.vi"/>
@@ -884,6 +896,20 @@
 			<Item Name="CommonSig-Apply Ramp (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp (1D).vi"/>
 			<Item Name="CommonSig-Apply Ramp (2D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp (2D).vi"/>
 			<Item Name="CommonSig-Apply Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Apply Ramp.vi"/>
+			<Item Name="Win32-Window Always On Top.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Win32-Window Always On Top.vi"/>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Find Window.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Find Window.vi"/>
+			<Item Name="Error Cluster From Win32 Error Code.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Error Cluster From Win32 Error Code.vi"/>
+			<Item Name="Run Executable.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Run Executable.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="RunExe-Wait For Target Ready.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/RunExe-Wait For Target Ready.vi"/>
+			<Item Name="SysInfo-Get LabVIEW Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get LabVIEW Version.vi"/>
+			<Item Name="RunExe-Send Target Ready.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/RunExe-Send Target Ready.vi"/>
+			<Item Name="Build-Set Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Set Version.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
@@ -900,6 +926,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A9B55D7-5352-4D1B-8BC9-1E75DCB43BA2}</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -910,7 +938,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1D82269-05DA-4784-9FCA-5D1D6FBF141B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0CD3510A-1B20-41A3-94E5-2FED2B66766E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Cochlear Function Test Suite.vi</Property>
@@ -934,6 +962,49 @@
 				<Property Name="TgtF_productName" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{13ABDE66-6E22-43EE-ACBB-BF5B6F964B10}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EPL_CFTS.exe</Property>
+			</Item>
+			<Item Name="Launcher" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8D52D87A-6BFA-4404-B974-4FB5E5AA2C1E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5470204C-0F6F-4C56-BFB4-A5B229CC1983}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E08D84FD-ECA4-4662-89B0-E736D1BBA960}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Launcher</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Build</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5824D641-F14D-4684-864B-D846ACB54EA7}</Property>
+				<Property Name="Bld_version.major" Type="Int">3</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Launch_CFTS.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/Launch_CFTS.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Build</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0CD3510A-1B20-41A3-94E5-2FED2B66766E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/CFTS-Launcher.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Mass General Brigham</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Launcher</Property>
+				<Property Name="TgtF_internalName" Type="Str">Launcher</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 EPL</Property>
+				<Property Name="TgtF_productName" Type="Str">Launcher</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1B869C47-CB7D-49F2-BE96-DEDF9A47F9A1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Launch_CFTS.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

@@ -40,5 +40,5 @@ Source: "..\Build\*.*"; DestDir: "{app}"; Flags: replacesameversion
 Source: "D:\Development\epl-vi-lib\Utility VIs\Error Handling VIs\epl-vi-lib-errors.ini"; DestDir: "{app}"; Flags: replacesameversion
 
 [Icons]
-Name: "{commondesktop}\EPL Cochlear Function Test Suite"; Filename: "{app}\EPL_CFTS.exe"; IconFilename: "{app}\CFTS.ico"; IconIndex: 0;
+Name: "{commondesktop}\EPL Cochlear Function Test Suite"; Filename: "{app}\Launch_CFTS.exe"; IconFilename: "{app}\CFTS.ico"; IconIndex: 0;
 
