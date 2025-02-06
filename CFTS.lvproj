@@ -826,7 +826,6 @@
 			<Item Name="CalMic-Load Calibration Log.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Load Calibration Log.vi"/>
 			<Item Name="CalMic-Restore Defaults.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Mic Sensitivity VIs/Sub VIs/CalMic-Restore Defaults.vi"/>
 			<Item Name="DP-Advanced Options.ctl" Type="VI" URL="../LV Source/DPOAE VIs/Typedefs/DP-Advanced Options.ctl"/>
-			<Item Name="CFTS-Is Advanced User.vi" Type="VI" URL="../LV Source/CFTS SubVIs/CFTS-Is Advanced User.vi"/>
 			<Item Name="Text List to Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/Text List to Array.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error Handler.vi"/>
 			<Item Name="FFT x(t) to dB,Degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/FFT x(t) to dB,Degrees (1D).vi"/>
@@ -910,6 +909,7 @@
 			<Item Name="SysInfo-Get LabVIEW Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/SysInfo-Get LabVIEW Version.vi"/>
 			<Item Name="RunExe-Send Target Ready.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/RunExe-Send Target Ready.vi"/>
 			<Item Name="Build-Set Version.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Build VIs/Build-Set Version.vi"/>
+			<Item Name="CFTS-Is Advanced User.vi" Type="VI" URL="../LV Source/CFTS VIs/CFTS-Is Advanced User.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
@@ -926,8 +926,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A9B55D7-5352-4D1B-8BC9-1E75DCB43BA2}</Property>
-				<Property Name="Bld_version.major" Type="Int">3</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/EPL_CFTS.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -978,8 +976,6 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5824D641-F14D-4684-864B-D846ACB54EA7}</Property>
-				<Property Name="Bld_version.major" Type="Int">3</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Launch_CFTS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/Launch_CFTS.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
