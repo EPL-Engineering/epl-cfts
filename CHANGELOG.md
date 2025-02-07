@@ -1,6 +1,8 @@
 ## Changelog
 
-### v3.0.2 (unreleased)
+### v3.1 (unreleased)
+#### Fixed
+- all manner of bugs not shaken out getting the Fast ABR to run
 #### Added
 - splash screen
 
