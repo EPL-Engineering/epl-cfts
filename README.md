@@ -1,4 +1,4 @@
-![banner](https://github.com/user-attachments/assets/b094effd-351c-4a0e-b5f6-d214fe423cc6)
+![banner3-1](https://github.com/user-attachments/assets/5f65c34b-442c-44ad-81f2-6c91c3cc8d44)
 
 # EPL Cochlear Function Test Suite
 
