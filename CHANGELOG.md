@@ -1,6 +1,6 @@
 ## Changelog
 
-### v3.1 (unreleased)
+### v3.1 (2025-02-11)
 #### Fixed
 - all manner of bugs not shaken out getting the Fast ABR to run
 #### Added

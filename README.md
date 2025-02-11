@@ -2,7 +2,7 @@
 
 # EPL Cochlear Function Test Suite
 
-[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.0.1/EPL_CFTS_Install_3-0-1.exe)
+[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.1/EPL_CFTS_Install_3-1.exe)
 
 ### Prerequisites
 The software requires the following two installations from National Instruments. Both are free downloads, but registration may be required.
@@ -17,8 +17,8 @@ The installer linked at the top of this page contains a standalone executable Wi
 ### Required to edit source code:
 - [NI DAQmx 20.1](https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html#348669) or greater
 - [LabVIEW 2020](https://www.ni.com/en/support/downloads/software-products/download.labview.html#346254) or greater (requires license)
-- [EPL VI Library v1.15](../../../epl-vi-lib/releases/tag/v1.15)
-- [EPL Calibration VI Library v1.3](../../../epl-cal-vi-lib/releases/tag/v1.3)
+- [EPL VI Library v1.15.1](../../../epl-vi-lib/releases/tag/v1.15.1)
+- [EPL Calibration VI Library v1.4](../../../epl-cal-vi-lib/releases/tag/v1.4)
 
 ### Install locations to edit source code
 - CFTS source code must be installed in the same folder as the [EPL VI Library](../../../epl-vi-lib) and the [EPL Calibration VI Library](../../../epl-cal-vi-lib), e.g. `C:\Development\epl-cfts`, `C:\Development\epl-vi-lib`, and `C:\Development\epl-cal-vi-lib`
