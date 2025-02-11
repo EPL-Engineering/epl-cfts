@@ -1,7 +1,5 @@
 ![banner3-1](https://github.com/user-attachments/assets/5f65c34b-442c-44ad-81f2-6c91c3cc8d44)
 
-# EPL Cochlear Function Test Suite
-
 [Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.1/EPL_CFTS_Install_3-1.exe)
 
 ### Prerequisites
