@@ -8,7 +8,7 @@
 
 ---
 
-### v3.0.1 (2025-05-02)
+### v3.0.1 (2025-02-05)
 #### Fixed
 - Fast ABR: removed kluge that overrode alternating polarity
 
