@@ -1,5 +1,9 @@
 ## Changelog
 
+### v3.1.1 (2025-02-19)
+#### Fixed
+- ABR/Fast ABR: skip trial pulse config when there is no 16-bit board
+
 ### v3.1 (2025-02-11)
 #### Fixed
 - all manner of bugs not shaken out getting the Fast ABR to run
