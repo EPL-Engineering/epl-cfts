@@ -1,6 +1,6 @@
 ![banner3-1](https://github.com/user-attachments/assets/5f65c34b-442c-44ad-81f2-6c91c3cc8d44)
 
-[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.1.1/EPL_CFTS_Install_3-1-1.exe)
+[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.1.2/EPL_CFTS_Install_3-1-2.exe)
 
 ### Prerequisites
 The software requires the following two installations from National Instruments. Both are free downloads, but registration may be required.
