@@ -5,7 +5,7 @@
 ### Prerequisites
 The software requires the following two installations from National Instruments. Both are free downloads, but registration may be required.
 1. [NI DAQmx 20.1](https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html#348669) or greater
-2. [LabVIEW 2020 32-bit Runtime Engine](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html?srsltid=AfmBOorCUv3V_56cdQDMn3BNF-vT57k48-523YsmQve1thLfrV5-ecnW#369481)
+2. [LabVIEW 2020SP1 32-bit Runtime Engine](https://www.ni.com/en/support/downloads/software-products/download.labview-runtime.html?srsltid=AfmBOorCUv3V_56cdQDMn3BNF-vT57k48-523YsmQve1thLfrV5-ecnW#369481)
 
 [Changelog](CHANGELOG.md)
 
