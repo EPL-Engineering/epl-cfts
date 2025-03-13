@@ -1,5 +1,12 @@
 ## Changelog
 
+### v3.1.3 (2025-03-13)
+#### Fixed
+- clear counter task to prevent resource error (-50103)
+- changes bad file extension ('.') to '.tsv'
+
+---
+
 ### v3.1.2 (2025-03-07)
 #### Changed
 - Fast ABR: reverse order so frequency goes high to low
