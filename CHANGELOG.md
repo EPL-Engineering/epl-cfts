@@ -1,6 +1,6 @@
 ## Changelog
 
-### unreleased
+### v3.1.4 (2025-04-16)
 #### Fixed
 - files are now properly deleted when that option is selected at the end of an aborted run.
 
