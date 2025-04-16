@@ -1,5 +1,11 @@
 ## Changelog
 
+### unreleased
+#### Fixed
+- files are now properly deleted when that option is selected at the end of an aborted run.
+
+---
+
 ### v3.1.3 (2025-03-13)
 #### Fixed
 - clear counter task to prevent resource error (-50103)
