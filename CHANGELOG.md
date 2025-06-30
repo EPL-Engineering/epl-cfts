@@ -1,5 +1,12 @@
 ## Changelog
 
+### v3.1.5 (2025-06-30)
+#### Fixed
+- cleared DEBUG flag
+- further clean up of extension logic
+
+---
+
 ### v3.1.4 (2025-04-16)
 #### Fixed
 - files are now properly deleted when that option is selected at the end of an aborted run.
