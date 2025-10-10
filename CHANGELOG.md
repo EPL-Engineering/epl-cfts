@@ -1,5 +1,11 @@
 ## Changelog
 
+### v3.1.6 (2025-10-10)
+#### Fixed
+- counter error when running DP after ABR
+
+---
+
 ### v3.1.5 (2025-06-30)
 #### Fixed
 - cleared DEBUG flag

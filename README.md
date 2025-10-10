@@ -1,6 +1,6 @@
 ![banner3-1](https://github.com/user-attachments/assets/5f65c34b-442c-44ad-81f2-6c91c3cc8d44)
 
-[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.1.4/EPL_CFTS_Install_3-1-4.exe)
+[Latest installer](https://github.com/EPL-Engineering/epl-cfts/releases/download/v3.1.6/EPL_CFTS_Install_3-1-6.exe)
 
 ### Prerequisites
 The software requires the following two installations from National Instruments. Both are free downloads, but registration may be required.
@@ -15,7 +15,7 @@ The installer linked at the top of this page contains a standalone executable Wi
 ### Required to edit source code:
 - [NI DAQmx 20.1](https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html#348669) or greater
 - [LabVIEW 2020](https://www.ni.com/en/support/downloads/software-products/download.labview.html#346254) or greater (requires license)
-- [EPL VI Library v1.15.1](../../../epl-vi-lib/releases/tag/v1.15.1)
+- [EPL VI Library v1.17](../../../epl-vi-lib/releases/tag/v1.17)
 - [EPL Calibration VI Library v1.4](../../../epl-cal-vi-lib/releases/tag/v1.4)
 
 ### Install locations to edit source code
