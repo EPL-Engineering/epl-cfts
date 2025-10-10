@@ -443,6 +443,7 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="Open a Document on Disk.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open a Document on Disk.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -901,7 +902,7 @@
 			<Item Name="Logger-Check and Log Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Check and Log Error.vi"/>
 			<Item Name="Error-Format Message.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error-Format Message.vi"/>
 			<Item Name="subDetailed Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Detailed ErrorSource.llb/subDetailed Error.vi"/>
-			<Item Name="kernel32.dll" Type="Document" URL="/C/Windows/SysWOW64/kernel32.dll"/>
+			<Item Name="Logger-Globals.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Globals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
