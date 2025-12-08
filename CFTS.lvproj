@@ -858,7 +858,6 @@
 			<Item Name="Speaker ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Speaker ring.ctl"/>
 			<Item Name="CAL-Speaker Cal Path.vi" Type="VI" URL="../../Calibration VIs/File IO VIs/CAL-Speaker Cal Path.vi"/>
 			<Item Name="CAL-Get MAX SPL (tone, scalar).vi" Type="VI" URL="../../Calibration VIs/Analysis VIs/CAL-Get MAX SPL (tone, scalar).vi"/>
-			<Item Name="ABR-Read Header.vi" Type="VI" URL="../LV Source/ABR VIs/SubVIs/ABR-Read Header.vi"/>
 			<Item Name="FileIO-Open Dialog (multiple).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Open Dialog (multiple).vi"/>
 			<Item Name="Graphics-Init X-axis Overlay.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Init X-axis Overlay.vi"/>
 			<Item Name="Logger-Log Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Sub VIs/Logger-Log Info.vi"/>

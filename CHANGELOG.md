@@ -1,5 +1,21 @@
 ## Changelog
 
+### v3.2 (unreleased)
+#### Fixed
+- Standard ABR: threshold for fast steps analysis was not applied
+#### Changed
+- Standard ABR
+  - renamed response sampling rate to "Fs (Hz)" to match fast ABR
+  - added reject threshold to data file
+- Fast ABR
+  - Change file name frequency tag to kHz with one decimal point
+#### Added
+- Fast ABR
+  - option to save data during pause
+  - threshold for fast steps implementation
+
+---
+
 ### v3.1.6 (2025-10-10)
 #### Fixed
 - counter error when running DP after ABR
