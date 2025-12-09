@@ -3,6 +3,7 @@
 ### v3.2 (unreleased)
 #### Fixed
 - Standard ABR: threshold for fast steps analysis was not applied
+- Fast ABR: number of avgs/tries was cleared for lowest level/lowest freq
 #### Changed
 - Standard ABR
   - renamed response sampling rate to "Fs (Hz)" to match fast ABR
@@ -12,7 +13,6 @@
 #### Added
 - Fast ABR
   - option to save data during pause
-  - threshold for fast steps implementation
 
 ---
 
