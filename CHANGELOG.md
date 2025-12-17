@@ -1,6 +1,6 @@
 ## Changelog
 
-### v3.2 (unreleased)
+### v3.2 (2025-12-17)
 #### Fixed
 - Standard ABR: threshold for fast steps analysis was not applied
 - Fast ABR: number of avgs/tries was cleared for lowest level/lowest freq
