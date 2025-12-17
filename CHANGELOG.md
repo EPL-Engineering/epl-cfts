@@ -6,10 +6,11 @@
 - Fast ABR: number of avgs/tries was cleared for lowest level/lowest freq
 #### Changed
 - Standard ABR
-  - renamed response sampling rate to "Fs (Hz)" to match fast ABR
+  - renamed response sampling rate to "Fs (Hz)" to match Fast ABR
   - added reject threshold to data file
 - Fast ABR
   - Change file name frequency tag to kHz with one decimal point
+  - Changed frequency specification to expression (to allow explicit list)
 #### Added
 - Fast ABR
   - option to save data during pause
