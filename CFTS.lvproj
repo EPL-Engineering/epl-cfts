@@ -930,7 +930,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E67F074-B090-49A5-BD42-CD607C04DE5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6E94AFBA-E762-4FCB-8161-8932B7D2F74B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Cochlear Function Test Suite.vi</Property>
@@ -950,13 +950,13 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Massachusetts Eye &amp; Ear</Property>
-				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_internalName" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Massachusetts Eye &amp; Ear</Property>
 				<Property Name="TgtF_productName" Type="Str">EPL Cochlear Function Test Suite</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{13ABDE66-6E22-43EE-ACBB-BF5B6F964B10}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">EPL_CFTS.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Launcher" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -983,7 +983,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0CD3510A-1B20-41A3-94E5-2FED2B66766E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6E94AFBA-E762-4FCB-8161-8932B7D2F74B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/CFTS-Launcher.vi</Property>
