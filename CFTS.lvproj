@@ -930,7 +930,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/CFTS.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6E94AFBA-E762-4FCB-8161-8932B7D2F74B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6033B0B2-4A9B-4D87-AF46-2C9D85662B44}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Cochlear Function Test Suite.vi</Property>
