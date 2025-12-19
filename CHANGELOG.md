@@ -1,5 +1,13 @@
 ## Changelog
 
+### v3.3 (unreleased)
+#### Added
+- root data folder option
+#### Fixed
+- auto save Iso DP after DP I-O run
+
+---
+
 ### v3.2 (2025-12-17)
 #### Fixed
 - Standard ABR: threshold for fast steps analysis was not applied
