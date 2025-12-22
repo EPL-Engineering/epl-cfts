@@ -1,6 +1,6 @@
 ## Changelog
 
-### v3.3 (unreleased)
+### v3.3 (2025-12-22)
 #### Added
 - root data folder option
 - explicit start/end times for all measurements
