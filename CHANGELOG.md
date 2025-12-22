@@ -2,6 +2,7 @@
 
 ### v3.4 (unreleased)
 #### Added
+- Fast ABR: stepped level order
 - retrieve vital signs from monitor (Vital Signs Monitor version >= 2.8)
 
 ---
