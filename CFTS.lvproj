@@ -778,7 +778,6 @@
 			<Item Name="PXI-Set Auto Ramping.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Auto Ramping.vi"/>
 			<Item Name="PXI-Set Skip Samples.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/Set Config VIs/PXI-Set Skip Samples.vi"/>
 			<Item Name="Left-Right ring.ctl" Type="VI" URL="../../Utility VIs/Type Defs/Left-Right ring.ctl"/>
-			<Item Name="VS-Read All (standalone).vi" Type="VI" URL="../../Misc VIs/Vital Signs/Sub VIs/VS-Read All (standalone).vi"/>
 			<Item Name="About Equal.vi" Type="VI" URL="../../Utility VIs/Comparison VIs/About Equal.vi"/>
 			<Item Name="Chamber Memory.vi" Type="VI" URL="../LV Source/DPOAE VIs/Memory VIs/Chamber Memory.vi"/>
 			<Item Name="MCL Write Characters To File.vi" Type="VI" URL="../LV Source/DPOAE VIs/EPL Utility VIs/MCL Utility VIs/MCLfile.llb/MCL Write Characters To File.vi"/>
@@ -905,6 +904,8 @@
 			<Item Name="Logger-Globals.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Logger/LV Source/Typedefs/Logger-Globals.vi"/>
 			<Item Name="FileIO-Create Folder.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Create Folder.vi"/>
 			<Item Name="Timing-Get Timestamp.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Timing VIs/Timing-Get Timestamp.vi"/>
+			<Item Name="TCP-Prepend String Length.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Prepend String Length.vi"/>
+			<Item Name="TCP-Send Command.vi" Type="VI" URL="../../epl-vi-lib/TCP VIs/TCP-Send Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EPL Cochlear Function Test Suite" Type="EXE">
