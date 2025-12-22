@@ -3,8 +3,11 @@
 ### v3.3 (unreleased)
 #### Added
 - root data folder option
+- explicit start/end times for all measurements
 #### Fixed
 - auto save Iso DP after DP I-O run
+#### Changed
+- Fast ABR: skip convention is now 0=do in sequence, 1=every other, etc.
 
 ---
 
