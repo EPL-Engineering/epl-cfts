@@ -1,5 +1,11 @@
 ## Changelog
 
+### v3.4 (unreleased)
+#### Added
+- retrieve vital signs from monitor (Vital Signs Monitor version >= 2.8)
+
+---
+
 ### v3.3 (2025-12-22)
 #### Added
 - root data folder option
