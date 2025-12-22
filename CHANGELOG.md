@@ -6,6 +6,7 @@
 - explicit start/end times for all measurements
 #### Fixed
 - auto save Iso DP after DP I-O run
+- exposed DP analysis on main panel
 #### Changed
 - Fast ABR: skip convention is now 0=do in sequence, 1=every other, etc.
 
