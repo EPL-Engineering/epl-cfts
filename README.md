@@ -15,7 +15,7 @@ The installer linked at the top of this page contains a standalone executable Wi
 ### Required to edit source code:
 - [NI DAQmx 20.1](https://www.ni.com/en/support/downloads/drivers/download.ni-daq-mx.html#348669) or greater
 - [LabVIEW 2020](https://www.ni.com/en/support/downloads/software-products/download.labview.html#346254) or greater (requires license)
-- [EPL VI Library v1.18](../../../epl-vi-lib/releases/tag/v1.18)
+- [EPL VI Library v1.19](../../../epl-vi-lib/releases/tag/v1.19)
 - [EPL Calibration VI Library v1.4](../../../epl-cal-vi-lib/releases/tag/v1.4)
 
 ### Install locations to edit source code
