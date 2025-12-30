@@ -1,5 +1,11 @@
 ## Changelog
 
+### v3.5 (unreleased)
+#### Added
+- restored PSTR
+
+---
+
 ### v3.4 (2025-12-29)
 #### Added
 - Fast ABR: stepped level order
