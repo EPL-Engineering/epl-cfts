@@ -1014,18 +1014,7 @@
 			<Item Name="Level Units.ctl" Type="VI" URL="../../Signal Synthesis VIs/Controls/Level XCtl/Level Units.ctl"/>
 			<Item Name="Advanced Stimulus Options.ctl" Type="VI" URL="../../Signal Synthesis VIs/Controls/Advanced Options XCtl/Advanced Stimulus Options.ctl"/>
 			<Item Name="SAM Params.ctl" Type="VI" URL="../../Signal Synthesis VIs/Modulation VIs/SAM VIs/SAM Params.ctl"/>
-			<Item Name="PXI-DAQ Status.vi" Type="VI" URL="../../PXI DAQ VIs/Top Level VIs/PXI-DAQ Status.vi"/>
-			<Item Name="SigSyn-Create (polymorphic).vi" Type="VI" URL="../../Signal Synthesis VIs/Top Level VIs/SigSyn-Create (polymorphic).vi"/>
-			<Item Name="Stimulus-Create (full).vi" Type="VI" URL="../../Signal Synthesis VIs/Top Level VIs/Stimulus-Create (full).vi"/>
-			<Item Name="SigSyn-Set Level (polymorphic).vi" Type="VI" URL="../../Signal Synthesis VIs/Top Level VIs/SigSyn-Set Level (polymorphic).vi"/>
-			<Item Name="Stimulus-Set Level (full wrapper).vi" Type="VI" URL="../../Signal Synthesis VIs/Top Level VIs/Stimulus-Set Level (full wrapper).vi"/>
-			<Item Name="Input sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Input sources.ctl"/>
-			<Item Name="Output sources.ctl" Type="VI" URL="../../Misc VIs/Connection Manager/Type Defs/Output sources.ctl"/>
-			<Item Name="Stimulus-Initialize (full).vi" Type="VI" URL="../../Signal Synthesis VIs/Top Level VIs/Stimulus-Initialize (full).vi"/>
-			<Item Name="Equip-Get AI Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AI Channels.vi"/>
-			<Item Name="Equip-Get AO Channels.vi" Type="VI" URL="../../Misc VIs/Connection Manager/Equip-Get AO Channels.vi"/>
 			<Item Name="Math-Column Sum.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Column Sum.vi"/>
-			<Item Name="SysInfo-Expt VIs Version.vi" Type="VI" URL="../../Utility VIs/System Info VIs/SysInfo-Expt VIs Version.vi"/>
 			<Item Name="Graphics-Set Line Styles.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Set Line Styles.vi"/>
 			<Item Name="Graphics-Create XY Cluster (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Create XY Cluster (1D).vi"/>
 			<Item Name="Graphics-Set Line Styles.vi" Type="VI" URL="../../Utility VIs/Graphics VIs/Graphics-Set Line Styles.vi"/>
