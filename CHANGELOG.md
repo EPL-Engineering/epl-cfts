@@ -3,6 +3,7 @@
 ### v3.5 (unreleased)
 #### Added
 - restored PSTR
+- PSTR: added option to skip spontaneous measurement
 
 ---
 
