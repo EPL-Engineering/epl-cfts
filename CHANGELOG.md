@@ -4,6 +4,8 @@
 #### Added
 - restored PSTR
 - PSTR: added option to skip spontaneous measurement
+#### Fixed
+- properly constructs data folder when root data folder is specified
 
 ---
 
